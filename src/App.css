@@ -91,6 +91,8 @@ nav a:hover {
   color: white;
   font-weight: bolder;
   font-size: xx-large;
+  border-radius: 50%;
+  width: 6em;
 }
 
 select {
@@ -169,6 +171,10 @@ footer {
   border: 2em solid white;
   padding: 2em;
   margin: 0em;
+}
+
+.logo{
+  margin: 0em auto .5em auto;
 }
 
 @media (max-width: 2000px) {

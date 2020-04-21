@@ -1,9 +1,10 @@
 import React from "react";
+import Initials from "../assets/images/Initials.jpg";
 
 function Home() {
   return (
     <div className="homepage">
-      <img src="public/assets/Initials.jpg" alt='logo'/>
+      <img className=" logo" src={Initials} alt="logo" />
       <h3>
         I'm a full-stack software engineer with a love for strategy and
         creation.
