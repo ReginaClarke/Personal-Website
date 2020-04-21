@@ -31,7 +31,6 @@ class Play extends Component {
 
   componentDidMount() {
     this.gifList();
-    console.log(GIPHY_KEY);
   }
 
   gifList() {
@@ -68,6 +67,7 @@ class Play extends Component {
               <option value="computer science">Tech Life</option>
               <option value="strategy">Strategizer</option>
               <option value="i did it">Problem Solver</option>
+              <option value="learn">Life Long Learner</option>
             </select>
             <button className="selector" type="submit">
               Search
