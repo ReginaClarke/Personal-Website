@@ -58,11 +58,12 @@ class Play extends Component {
     return (
       <div>
         <div className="selector">
+          <h3>Search fun GIFs that describe me!</h3>
           <form onSubmit={this.handleSubmit}>
             <select onChange={this.handleSelectChange}>
               <option value="">Pick Your Path Here</option>
               <option value="hire me">Hire Me</option>
-              <option value="typing fast">Work Hard</option>
+              <option value="typing fast">Work Harder</option>
               <option value="teamwork makes the dream work">Team Player</option>
               <option value="computer science">Tech Life</option>
               <option value="strategy">Strategizer</option>

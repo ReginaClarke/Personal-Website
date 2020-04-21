@@ -74,7 +74,7 @@ nav {
   height: 2em;
   font-size: 1.25em;
   background-color: rgb(255, 255, 255);
-  color: rgb(12, 12, 33);
+  color: black;
 }
 
 nav a:link {
@@ -82,13 +82,15 @@ nav a:link {
   font-weight: bolder;
 }
 
-nav a:hover {
-  color: white;
-  background-color: black;
-}
-
 nav a:visited {
   color: black;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 
 select {
