@@ -3,7 +3,7 @@ import axios from "axios";
 const BASE_URL = "https://api.giphy.com/v1/gifs/search?api_key=";
 const GIPHY_KEY = process.env.REACT_APP_GIPHY_KEY;
 
-class Play extends Component {
+class Discovery extends Component {
   constructor() {
     super();
     this.state = {
@@ -80,4 +80,4 @@ class Play extends Component {
     );
   }
 }
-export default Play;
+export default Discovery;

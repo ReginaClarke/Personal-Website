@@ -1,5 +1,6 @@
 import React from "react";
 import MyFlicksVideo from "../assets/videos/MyFlicksVideo.webm";
+import Initials from "../assets/images/Initials.jpg";
 
 //------------------external links----------------------------//
 const instashopSite = function () {
@@ -77,7 +78,13 @@ function Projects() {
       <div className="projectgrid">
         <div className="projectcontainer">
           <h3>Instashop</h3>
-          <video width="400" height="225" src="" controls></video>
+          <video
+            width="400"
+            height="225"
+            src=""
+            poster={Initials}
+            controls
+          ></video>
           <h3>ROR and React Application</h3>
           <p>CSS, React.js, Ruby on Rails</p>
           <p>
@@ -114,7 +121,13 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>The Fashion GIFs</h3>
-          <video width="400" height="225" src="" controls></video>
+          <video
+            width="400"
+            height="225"
+            src=""
+            poster={Initials}
+            controls
+          ></video>
           <h3>React.js Application</h3>
           <p>CSS & React.js</p>
           <p>
@@ -133,7 +146,13 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>The Retail Bootcamp</h3>
-          <video width="400" height="225" src="" controls></video>
+          <video
+            width="400"
+            height="225"
+            src=""
+            poster={Initials}
+            controls
+          ></video>
           <h3>Vanilla JavaScript Application</h3>
           <p>JavaScript, CSS, & HTML</p>
           <p>
@@ -154,7 +173,13 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>Regina Clarke</h3>
-          <video width="400" height="225" src="" controls></video>
+          <video
+            width="400"
+            height="225"
+            src=""
+            poster={Initials}
+            controls
+          ></video>
           <h3>React Application</h3>
           <p>React & CSS</p>
           <p>The current portfolio you are viewing</p>
