@@ -16,7 +16,7 @@ const instashopWireframe = function () {
     "_blank"
   );
 };
-/////////////////
+///////////////// MY FLICKS/////////////////
 const myflicksSite = function () {
   window.open("http://myfavflicks.surge.sh/", "_blank");
 };
@@ -32,7 +32,7 @@ const myflicksWireframe = function () {
   );
 };
 
-/////////////////
+///////////////// THE FASHION GIFS ///////////////////
 const fashiongifySite = function () {
   window.open("https://the-fashion-gif.netlify.app", "_blank");
 };
@@ -44,7 +44,7 @@ const fashiongifyGithub = function () {
 const fashiongifyWireframe = function () {
   window.open("", "_blank");
 };
-/////////////////
+///////////////// THE RETAIL BOOTCAMP //////////////////
 const bootcampSite = function () {
   window.open("https://theretailbootcamp.netlify.app/", "_blank");
 };
