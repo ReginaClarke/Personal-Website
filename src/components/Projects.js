@@ -1,5 +1,8 @@
 import React from "react";
 import MyFlicksVideo from "../assets/videos/MyFlicksVideo.webm";
+import RetailBootcampVideo from "../assets/videos/RetailBootcampVideo.webm";
+import FashionGifsVideo from "../assets/videos/FashionGifsVideo.webm";
+import InstashopPlaceholder from "../assets/images/InstashopPlaceholder.png";
 import Initials from "../assets/images/Initials.jpg";
 
 //------------------external links----------------------------//
@@ -78,13 +81,7 @@ function Projects() {
       <div className="projectgrid">
         <div className="projectcontainer">
           <h3>Instashop</h3>
-          <video
-            width="400"
-            height="225"
-            src=""
-            poster={Initials}
-            controls
-          ></video>
+          <video width="400" height="225" src="" poster={InstashopPlaceholder}></video>
           <h3>ROR and React Application</h3>
           <p>CSS, React.js, Ruby on Rails</p>
           <p>
@@ -121,13 +118,7 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>The Fashion GIFs</h3>
-          <video
-            width="400"
-            height="225"
-            src=""
-            poster={Initials}
-            controls
-          ></video>
+          <video width="400" height="225" src={FashionGifsVideo} controls></video>
           <h3>React.js Application</h3>
           <p>CSS & React.js</p>
           <p>
@@ -149,8 +140,7 @@ function Projects() {
           <video
             width="400"
             height="225"
-            src=""
-            poster={Initials}
+            src={RetailBootcampVideo}
             controls
           ></video>
           <h3>Vanilla JavaScript Application</h3>
@@ -178,7 +168,7 @@ function Projects() {
             height="225"
             src=""
             poster={Initials}
-            controls
+            
           ></video>
           <h3>React Application</h3>
           <p>React & CSS</p>
