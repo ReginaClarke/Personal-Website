@@ -19,6 +19,11 @@ function Header() {
           Projects
         </NavLink>
 
+        
+        <NavLink to={"/resume"} activeClassName={"active"}>
+          Resume
+        </NavLink>
+
         <NavLink to={"/play"} activeClassName={"active"}>
           Play
         </NavLink>

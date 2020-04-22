@@ -23,7 +23,6 @@ class Play extends Component {
       this.setState({
         gifs: response.data.data,
       });
-      console.log(this.state.gifs);
     } catch (error) {
       console.log(error);
     }
@@ -42,7 +41,7 @@ class Play extends Component {
               ? `${this.state.category.toUpperCase()} GIF`
               : gif.title.toUpperCase()}
           </h4>
-          <img src={gif.images.original.url} alt="search results" />
+          <img className="giphyresults" src={gif.images.original.url} alt="search results" />
         </div>
       );
     });
@@ -56,28 +55,28 @@ class Play extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <div className="selector">
           <h3>Search fun GIFs that describe me!</h3>
           <form onSubmit={this.handleSubmit}>
             <select onChange={this.handleSelectChange}>
               <option value="">Discover Here</option>
               <option value="hire me">Hire Me</option>
-              <option value="typing fast">Work Harder</option>
+              <option value="typing fast">Hard Worker</option>
               <option value="teamwork makes the dream work">Team Player</option>
               <option value="computer science">Tech Life</option>
               <option value="strategy">Strategizer</option>
               <option value="i did it">Problem Solver</option>
               <option value="learn">Life Long Learner</option>
             </select>
-            <button className="selector" type="submit">
+            <button className="selectorbutton" type="submit">
               Search
             </button>
           </form>
         </div>
 
         <div className="grid">{this.gifList()}</div>
-      </div>
+      </>
     );
   }
 }

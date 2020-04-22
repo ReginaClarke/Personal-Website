@@ -8,6 +8,8 @@ import Play from "./components/Play";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Page404 from "./components/Page404";
+import Resume from "./components/Resume";
+
 
 function App() {
   return (
@@ -25,6 +27,10 @@ function App() {
 
         <Route exact path={"/projects"}>
           <Projects />
+        </Route>
+
+        <Route exact path={"/resume"}>
+          <Resume />
         </Route>
 
         <Route exact path={"/play"}>
