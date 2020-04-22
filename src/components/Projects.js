@@ -65,7 +65,7 @@ function Projects() {
       <div className="projectgrid">
         <div>
           <h3>Instashop</h3>
-          <iframe width="400" height="225" src=""></iframe>
+          <video width="400" height="225" src="" controls></video>
           <h3>ROR and React Application</h3>
           <p>CSS, React.js, Ruby on Rails</p>
           <p>
@@ -85,7 +85,7 @@ function Projects() {
 
         <div>
           <h3>My Flicks</h3>
-          <iframe width="400" height="225" src={MyFlicksVideo}></iframe>
+          <video width="400" height="225" src={MyFlicksVideo} controls></video>
           <h3>MERN Application</h3>
           <p>MongoDB, Mongoose, Express, React.js, Node.js</p>
           <p>Save your favorite moves in an easy to use application.</p>
@@ -102,7 +102,7 @@ function Projects() {
 
         <div>
           <h3>The Fashion GIFs</h3>
-          <iframe width="400" height="225" src=""></iframe>
+          <video width="400" height="225" src="" controls></video>
           <h3>React.js Application</h3>
           <p>CSS & React.js</p>
           <p>
@@ -121,7 +121,7 @@ function Projects() {
 
         <div>
           <h3>The Retail Bootcamp</h3>
-          <iframe width="400" height="225" src=""></iframe>
+          <video width="400" height="225" src="" controls></video>
           <h3>Vanilla JavaScript, CSS, HTML Application</h3>
           <p>
             A business website for small business who sell consumer goods. This
