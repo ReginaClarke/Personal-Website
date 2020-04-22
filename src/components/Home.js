@@ -2,7 +2,7 @@ import React from "react";
 import Initials from "../assets/images/Initials.jpg";
 
 const aboutme = function () {
-  window.open("/about", "_blank");
+  window.open("about", "_blank");
 };
 
 function Home() {
@@ -21,3 +21,4 @@ function Home() {
 }
 
 export default Home;
+
