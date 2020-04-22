@@ -112,24 +112,12 @@ nav a:hover {
   cursor: pointer;
 }
 
-.page404 {
-  color: white;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  margin: 2em auto 1em auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .singleImage {
   height: 18em;
   width: 18em;
   border-radius: 50%;
-  border: 2em solid white;
-  padding: 2em;
+  border: 1em solid white;
+  padding: 1em;
   margin: 0em;
 }
 
@@ -210,8 +198,11 @@ nav a:hover {
   margin: 10em auto 0em auto;
   border: 1em solid white;
   border-radius: 50%;
-  height: 15em;
-  width: 15em;
+  height: 13em;
+  width: 13em;
+  border-radius: 50%;
+  border: 1em solid white;
+  padding: 1em;
 }
 
 @media (max-width: 500px) {
@@ -334,6 +325,13 @@ select {
   margin: 16em 8em 0em 8em;
 }
 
+.projectcontainer {
+  border: 0.25em solid white;
+  padding: 2em;
+  width: 40em;
+  height: 40em;
+}
+
 .projectbutton {
   border-radius: 100%;
   width: 6em;
@@ -407,3 +405,22 @@ footer {
   bottom: 0em;
   margin: 16em auto 0em auto;
 }
+
+/*----------------404 PAGE ------------------------*/
+
+.page404 {
+  margin-top: 5em;
+  color: white;
+}
+
+/* .page404 {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: 2em auto 1em auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+} */

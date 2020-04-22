@@ -63,7 +63,7 @@ function Projects() {
   return (
     <div className="projectview">
       <div className="projectgrid">
-        <div>
+        <div className="projectcontainer">
           <h3>Instashop</h3>
           <video width="400" height="225" src="" controls></video>
           <h3>ROR and React Application</h3>
@@ -83,7 +83,7 @@ function Projects() {
           </button>
         </div>
 
-        <div>
+        <div className="projectcontainer">
           <h3>My Flicks</h3>
           <video width="400" height="225" src={MyFlicksVideo} controls></video>
           <h3>MERN Application</h3>
@@ -100,7 +100,7 @@ function Projects() {
           </button>
         </div>
 
-        <div>
+        <div className="projectcontainer">
           <h3>The Fashion GIFs</h3>
           <video width="400" height="225" src="" controls></video>
           <h3>React.js Application</h3>
@@ -119,10 +119,11 @@ function Projects() {
           </button>
         </div>
 
-        <div>
+        <div className="projectcontainer">
           <h3>The Retail Bootcamp</h3>
           <video width="400" height="225" src="" controls></video>
-          <h3>Vanilla JavaScript, CSS, HTML Application</h3>
+          <h3>Vanilla JavaScript Application</h3>
+          <p>JavaScript, CSS, & HTML</p>
           <p>
             A business website for small business who sell consumer goods. This
             website is informational and allows users to search the last quarter
