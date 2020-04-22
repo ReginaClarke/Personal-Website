@@ -10,10 +10,6 @@ const resume = function () {
 function Resume() {
   return (
     <div className="resumeimage">
-      {/* <button className="gettoknowme" onClick={resume}>
-        download
-      </button> */}
-
       <div></div>
       <iframe
         title="Resume"
@@ -22,6 +18,11 @@ function Resume() {
         src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1587571377/Portfolio/Resume-Regina_Clarke_dgqtns.pdf"
         alt="resume"
       />
+      <div>
+      <button className="gettoknowme" onClick={resume}>
+          Additional Way to Download
+      </button>
+      </div>
     </div>
   );
 }

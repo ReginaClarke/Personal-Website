@@ -26,9 +26,12 @@ header {
   width: 100%;
   position: absolute;
   top: 0em;
-  height: 8em;
-  background-image: url("https://media.giphy.com/media/3o7btWtWIcrnr6Nvwc/giphy.gif");
-  background-size: 3.5em;
+  height: 12em;
+}
+
+.headerbackhome:hover {
+  font-size: 6em;
+  cursor: pointer;
 }
 
 p {
@@ -40,6 +43,7 @@ h1 {
   margin: 0em auto 0.25em auto;
   font-size: 5em;
   text-align: center;
+  font-family: cursive;
 }
 
 h2 {
@@ -80,10 +84,11 @@ nav {
   justify-content: space-evenly;
   width: 100%;
   margin: auto;
-  height: 2em;
+  height: 3em;
   font-size: 1.25em;
   background-color: rgb(255, 255, 255);
   color: black;
+  font-family: cursive;
 }
 
 @media (max-width: 385px) {
@@ -104,7 +109,8 @@ nav a:visited {
 
 nav a:hover {
   color: black;
-  border: 0.15em solid black;
+  border: 0.25em black;
+  border-style: double;
   font-weight: bolder;
   font-size: x-large;
   border-radius: 50%;
@@ -112,31 +118,19 @@ nav a:hover {
   cursor: pointer;
 }
 
-.page404 {
-  color: white;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  margin: 2em auto 1em auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .singleImage {
   height: 18em;
   width: 18em;
   border-radius: 50%;
-  border: 2em solid white;
-  padding: 2em;
+  border: 1em solid white;
+  padding: 1em;
   margin: 0em;
 }
 
 /*------------- HOME PAGE------------------ */
 
 .logo {
-  margin: 10em auto 0em auto;
+  margin: 13em auto 0em auto;
   width: 25%;
   height: 25%;
 }
@@ -186,7 +180,7 @@ nav a:hover {
   background-color: white;
   font-size: 1em;
   border-radius: 50%;
-  margin: auto auto 2em auto;
+  margin: 1em auto 2em auto;
   height: 8em;
   width: 8em;
   font-weight: bold;
@@ -207,11 +201,14 @@ nav a:hover {
 /*------------- ABOUT PAGE------------------ */
 
 .headshot {
-  margin: 10em auto 0em auto;
+  margin: 13em auto 0em auto;
   border: 1em solid white;
   border-radius: 50%;
-  height: 15em;
-  width: 15em;
+  height: 13em;
+  width: 13em;
+  border-radius: 50%;
+  border: 1em solid white;
+  padding: 1em;
 }
 
 @media (max-width: 500px) {
@@ -331,14 +328,29 @@ select {
 /*------------- PROJECT PAGE------------------ */
 
 .projectview {
-  margin: 16em 8em 0em 8em;
+  margin: 18em 2em 0em 2em;
+}
+
+.projectcontainer {
+  display: flexbox;
+  justify-content: space-evenly;
+  margin: auto;
+  border: 0.25em solid white;
+  padding: 2em 1em 0em 1em;
+  width: 40em;
+  height: 40em;
+}
+
+.projectcontainer:hover {
+  background-image: url("https://media.giphy.com/media/3o7btWtWIcrnr6Nvwc/giphy.gif");
+  background-size: 6em;
 }
 
 .projectbutton {
   border-radius: 100%;
   width: 6em;
   height: 6em;
-  margin: 1em 1em auto 1em;
+  margin: 1em 1em 0em 1em;
   font-size: 0.75em;
   text-align: center;
 }
@@ -365,19 +377,64 @@ select {
   margin: auto;
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 1500px) {
+  .projectview {
+    margin: 16em 2em 0em 2em;
+  }
+
   .projectgrid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .projectcontainer {
+    border: 0.25em solid white;
+    width: 33em;
+    height: 33em;
   }
 }
 
-@media (max-width: 1225px) {
+@media (max-width: 1200px) {
+  .projectview {
+    margin: 16em 2em 0em 2em;
+  }
+
   .projectgrid {
     grid-template-columns: 1fr 1fr;
   }
 
+  .projectcontainer {
+    border: 0.25em solid white;
+    width: 32em;
+    height: 33em;
+    padding: 2em;
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 1100px) {
   .projectview {
     margin: 16em 2em 0em 2em;
+  }
+
+  .projectgrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .projectcontainer {
+    border: 0.25em solid white;
+    width: 32em;
+    height: 33em;
+    padding: 2em;
+    font-size: 70%;
+  }
+
+  video {
+    width: 300px;
+    height: 150px;
+  }
+
+  .projectbutton {
+    padding: 2em 0em 2em 0em;
   }
 }
 
@@ -390,7 +447,7 @@ select {
 /*----------------RESUME PAGE -------------------*/
 
 .resumeimage {
-  margin: 15em auto 0em auto;
+  margin: 18em auto 0em auto;
 }
 
 footer {
@@ -406,4 +463,11 @@ footer {
   position: relative;
   bottom: 0em;
   margin: 16em auto 0em auto;
+}
+
+/*----------------404 PAGE ------------------------*/
+
+.page404 {
+  margin-top: 5em;
+  color: white;
 }
