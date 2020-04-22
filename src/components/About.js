@@ -1,8 +1,12 @@
 import React from "react";
+import Headshot from "../assets/images/Headshot.png";
+
 
 function About() {
   return (
     <div className="homepage">
+            <img className="headshot" src={Headshot} alt="headshot" />
+
       <p className="aboutMe">
         I'm a software engineer focused on roles in product management and
         technical roles that allow for business decision making. My passion is

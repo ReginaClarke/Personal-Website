@@ -14,29 +14,27 @@ function App() {
     <div className="App">
       <Header />
 
-      <div className="body">
-        <Switch>
-          <Route exact path={"/"}>
-            <Home />
-          </Route>
+      <Switch>
+        <Route exact path={"/"}>
+          <Home />
+        </Route>
 
-          <Route exact path={"/about"}>
-            <About />
-          </Route>
+        <Route exact path={"/about"}>
+          <About />
+        </Route>
 
-          <Route exact path={"/projects"}>
-            <Projects />
-          </Route>
+        <Route exact path={"/projects"}>
+          <Projects />
+        </Route>
 
-          <Route exact path={"/play"}>
-            <Play />
-          </Route>
+        <Route exact path={"/play"}>
+          <Play />
+        </Route>
 
-          <Route path={""}>
-            <Page404 />
-          </Route>
-        </Switch>
-      </div>
+        <Route path={""}>
+          <Page404 />
+        </Route>
+      </Switch>
 
       <Footer />
     </div>
