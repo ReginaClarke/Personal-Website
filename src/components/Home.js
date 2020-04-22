@@ -2,7 +2,7 @@ import React from "react";
 import Initials from "../assets/images/Initials.jpg";
 
 const aboutme = function () {
-  window.open("https://www.reginaclarke.com/about", "_blank");
+  window.open("/about", "_blank");
 };
 
 function Home() {
