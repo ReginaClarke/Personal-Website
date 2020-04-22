@@ -1,7 +1,4 @@
 import React from "react";
-import MyFlicksVideo from "../assets/videos/MyFlicksVideo.webm";
-import RetailBootcampVideo from "../assets/videos/RetailBootcampVideo.webm";
-import FashionGifsVideo from "../assets/videos/FashionGifsVideo.webm";
 import InstashopPlaceholder from "../assets/images/InstashopPlaceholder.png";
 import Initials from "../assets/images/Initials.jpg";
 
