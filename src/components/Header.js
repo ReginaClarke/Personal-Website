@@ -29,8 +29,8 @@ function Header() {
           Resume
         </NavLink>
 
-        <NavLink to={"/play"} activeClassName={"active"}>
-          Play
+        <NavLink to={"/discovery"} activeClassName={"active"}>
+          Discovery
         </NavLink>
       </nav>
     </header>
