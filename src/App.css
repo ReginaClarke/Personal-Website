@@ -32,6 +32,7 @@ header {
 .headerbackhome:hover {
   font-size: 6em;
   cursor: pointer;
+  width: fit-content;
 }
 
 p {
@@ -78,6 +79,7 @@ button {
 button:hover {
   cursor: pointer;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -89,13 +91,6 @@ nav {
   background-color: rgb(255, 255, 255);
   color: black;
   font-family: cursive;
-}
-
-@media (max-width: 385px) {
-  nav {
-    display: grid;
-    height: fit-content;
-  }
 }
 
 nav a:link {
@@ -118,6 +113,12 @@ nav a:hover {
   cursor: pointer;
 }
 
+@media (max-width: 385px) {
+  nav {
+    display: grid;
+    height: fit-content;
+  }
+}
 .singleImage {
   height: 18em;
   width: 18em;
@@ -211,18 +212,6 @@ nav a:hover {
   padding: 1em;
 }
 
-@media (max-width: 500px) {
-  .headshot {
-    margin: 13em auto 0em auto;
-  }
-}
-
-@media (max-width: 385px) {
-  .headshot {
-    margin: 16em auto 0em auto;
-  }
-}
-
 .aboutMe {
   color: white;
   margin: 1em auto 2em;
@@ -232,25 +221,31 @@ nav a:hover {
 
 @media (max-width: 1900px) {
   .headshot {
-    height: 20em;
-    width: 20em;
-  }
-}
-
-@media (max-width: 1225px) {
-  .headshot {
-    height: 15em;
-    width: 15em;
-  }
-}
-
-@media (max-width: 900px) {
-  .headshot {
     height: 10em;
     width: 10em;
   }
 }
 
+@media (max-width: 1225px) {
+  .headshot {
+    height: 8em;
+    width: 8em;
+  }
+}
+
+@media (max-width: 500px) {
+  .headshot {
+    margin: 13em auto 0em auto;
+  }
+}
+
+@media (max-width: 385px) {
+  .headshot {
+    margin: 16em auto 0em auto;
+    height: 5em;
+    width: 5em;
+  }
+}
 /*------------- PLAY PAGE------------------ */
 
 .selector {
@@ -464,7 +459,7 @@ footer {
   padding: 0em;
 }
 
-.footer{
+.footer {
   font-family: cursive;
   font-size: 1.5em;
   color: black;
