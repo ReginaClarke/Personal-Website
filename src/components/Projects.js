@@ -1,5 +1,5 @@
 import React from "react";
-import MyFlicksVideo from "../assets/videos/MyFlicksVideo.webm";
+import InstashopPlaceholder from "../assets/images/InstashopPlaceholder.png";
 import Initials from "../assets/images/Initials.jpg";
 
 //------------------external links----------------------------//
@@ -78,13 +78,7 @@ function Projects() {
       <div className="projectgrid">
         <div className="projectcontainer">
           <h3>Instashop</h3>
-          <video
-            width="400"
-            height="225"
-            src=""
-            poster={Initials}
-            controls
-          ></video>
+          <video width="400" height="225" src="" poster={InstashopPlaceholder}></video>
           <h3>ROR and React Application</h3>
           <p>CSS, React.js, Ruby on Rails</p>
           <p>
@@ -104,7 +98,7 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>My Flicks</h3>
-          <video width="400" height="225" src={MyFlicksVideo} controls></video>
+          <video width="400" height="225" src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587595196/Portfolio/MyFlicksVideo_rzqex7.mkv" controls></video>
           <h3>MERN Application</h3>
           <p>MongoDB, Mongoose, Express, React.js, Node.js</p>
           <p>Save your favorite moves in an easy to use application.</p>
@@ -121,13 +115,7 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>The Fashion GIFs</h3>
-          <video
-            width="400"
-            height="225"
-            src=""
-            poster={Initials}
-            controls
-          ></video>
+          <video width="400" height="225" src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587595019/Portfolio/FashionGifsVideo_qscamw.mkv" controls></video>
           <h3>React.js Application</h3>
           <p>CSS & React.js</p>
           <p>
@@ -149,8 +137,7 @@ function Projects() {
           <video
             width="400"
             height="225"
-            src=""
-            poster={Initials}
+            src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587595034/Portfolio/RetailBootcampVideo_uigssf.mkv"
             controls
           ></video>
           <h3>Vanilla JavaScript Application</h3>
@@ -178,7 +165,7 @@ function Projects() {
             height="225"
             src=""
             poster={Initials}
-            controls
+            
           ></video>
           <h3>React Application</h3>
           <p>React & CSS</p>
