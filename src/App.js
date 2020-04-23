@@ -9,6 +9,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Page404 from "./components/Page404";
 import Resume from "./components/Resume";
+import ContactMe from "./components/Contact";
 
 
 function App() {
@@ -35,6 +36,10 @@ function App() {
 
         <Route exact path={"/discovery"}>
           <Discovery />
+        </Route>
+
+        <Route exact path={"/contact"}>
+          <ContactMe />
         </Route>
 
         <Route path={""}>
