@@ -33,9 +33,9 @@ function Header() {
           Discovery
         </NavLink>
 
-        <NavLink to={"/contact"} activeClassName={"active"}>
+        {/* <NavLink to={"/contact"} activeClassName={"active"}>
           Contact Me
-        </NavLink>
+        </NavLink> */}
 
       </nav>
     </header>
