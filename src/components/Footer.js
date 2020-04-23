@@ -21,6 +21,14 @@ function Footer() {
       >
         {" "}
       </a>
+      <a
+        href="https://www.instagram.com/transitiontotechlife/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fa fa-instagram"
+      >
+        {" "}
+      </a>
     </footer>
   );
 }
