@@ -9,8 +9,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Page404 from "./components/Page404";
 import Resume from "./components/Resume";
-import ContactMe from "./components/Contact";
-
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -39,7 +38,7 @@ function App() {
         </Route>
 
         <Route exact path={"/contact"}>
-          <ContactMe />
+          <Contact />
         </Route>
 
         <Route path={""}>

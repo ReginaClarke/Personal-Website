@@ -32,6 +32,11 @@ function Header() {
         <NavLink to={"/discovery"} activeClassName={"active"}>
           Discovery
         </NavLink>
+
+        <NavLink to={"/contact"} activeClassName={"active"}>
+          Contact Me
+        </NavLink>
+
       </nav>
     </header>
   );

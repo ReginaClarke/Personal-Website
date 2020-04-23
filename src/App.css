@@ -468,7 +468,7 @@ footer {
 }
 
 .fa {
-  padding: .5em;
+  padding: 0.5em;
   font-size: 1.5em;
   text-align: center;
   text-decoration: none;
@@ -483,15 +483,30 @@ footer {
   opacity: 0.6;
 }
 
-/* .fa-linkedin {
-  background: white;
-  color: black;
+/*----------------CONTACT PAGE ------------------------*/
+
+.contactform {
+  margin: 20em auto 0em auto;
 }
 
-.fa-github {
-  background: white;
-  color: black;
-} */
+.contactheader {
+  font-size: 3em;
+  font-family: cursive;
+}
+.forminput {
+  width: 10em;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+.formtextarea {
+  width: 10em;
+  margin: auto;
+  text-align: center;
+  font-size: 2em;
+}
+
 /*----------------404 PAGE ------------------------*/
 
 .page404 {
