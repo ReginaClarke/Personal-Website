@@ -6,8 +6,7 @@ const encode = (data) => {
     .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
     .join("&");
 };
-
-class Contact extends React.Component {
+class ContactForm extends React.Component {
   constructor(props) {
     super(props);
     this.state = { name: "", email: "", message: "" };
@@ -33,10 +32,10 @@ class Contact extends React.Component {
     const { name, email, message } = this.state;
     return (
       <form className="contactform" onSubmit={this.handleSubmit}>
-       <h3 className="contactheader">Send Me a Message!</h3>
+        <h3 className="contactheader">Send Me a Message!</h3>
         <p>
-          {/* <label>
-            Your Name:{" "} */}
+          <label>
+            Your Name:{" "}
             <input
               className="forminput"
               placeholder="Enter Your Name"
@@ -45,11 +44,11 @@ class Contact extends React.Component {
               value={name}
               onChange={this.handleChange}
             />
-          {/* </label> */}
+          </label>
         </p>
         <p>
-          {/* <label>
-            Your Email:{" "} */}
+          <label>
+            Your Email:{" "}
             <input
               className="forminput"
               placeholder="Enter Your Email"
@@ -58,11 +57,11 @@ class Contact extends React.Component {
               value={email}
               onChange={this.handleChange}
             />
-          {/* </label> */}
+          </label>
         </p>
         <p>
-          {/* <label>
-            Message: */}
+          <label>
+            Message:
             <textarea
               className="formtextarea"
               placeholder="Enter Your Message"
@@ -70,7 +69,7 @@ class Contact extends React.Component {
               value={message}
               onChange={this.handleChange}
             />
-          {/* </label> */}
+          </label>
         </p>
         <p>
           <button className="projectbutton" type="submit">
@@ -82,4 +81,4 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact;
+export default ContactForm;
