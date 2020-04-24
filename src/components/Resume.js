@@ -12,11 +12,12 @@ function Resume() {
     <div className="resumeimage">
       <iframe
         title="Resume"
+        scrolling="auto"
         type="application/pdf"
-        width="100%"
-        height="100%"
+        // width="100%"
+        // height="100%"
         className="resume"
-        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1587571377/Portfolio/Resume-Regina_Clarke_dgqtns.pdf"
+        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1587571377/Portfolio/Resume-Regina_Clarke_dgqtns.pdf#zoom=90"
         alt="resume"
       />
       <div>

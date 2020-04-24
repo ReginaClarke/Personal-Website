@@ -496,6 +496,7 @@ video {
 iframe {
   width: 80%;
   height: 75em;
+
 }
 
 @media (max-width: 550px) {
