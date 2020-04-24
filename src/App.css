@@ -481,6 +481,7 @@ select {
 
 .myvideonotes {
   font-family: cursive;
+  font-weight: lighter;
   color: white;
   font-size: 2em;
 }
@@ -491,13 +492,20 @@ select {
 }
 
 .myvideos {
-  margin: 1em;
+  margin: 0.25em;
   border: 0.5em solid white;
 }
 
 .myvideostitles {
   padding: 0em;
   margin: 2em auto 0em auto;
+}
+
+.myvideossubtitles {
+  padding: 0em;
+  margin: 0em auto;
+  font-style: italic;
+  font-size: 0.75em;
 }
 
 .giphyresults {
