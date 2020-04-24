@@ -41,7 +41,11 @@ class Discovery extends Component {
               ? `${this.state.category.toUpperCase()} GIF`
               : gif.title.toUpperCase()}
           </h4>
-          <img className="giphyresults" src={gif.images.original.url} alt="search results" />
+          <img
+            className="giphyresults"
+            src={gif.images.original.url}
+            alt="search results"
+          />
         </div>
       );
     });
@@ -76,6 +80,31 @@ class Discovery extends Component {
         </div>
 
         <div className="grid">{this.gifList()}</div>
+        <h2 className="myvideonotes">
+          Or just enjoy some videos of me making things in my free time!
+        </h2>
+
+        <div className="myvideogrid">
+          <div className="">
+            <h3 className="myvideostitles">Millinery (Hat Making)</h3>
+            <video controls preload="auto" className="myvideos">
+              <source
+                src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587708532/Portfolio/FinishedHat_npatml.mov"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+
+          <div className="">
+            <h3 className="myvideostitles">Making Adidas Stan Smith Shoes</h3>
+            <video controls preload="auto" className="myvideos">
+              <source
+                src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587708535/Portfolio/Day2StanSmithClass_nn7a00.mov"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        </div>
       </>
     );
   }

@@ -264,79 +264,6 @@ nav a:hover {
     width: 5em;
   }
 }
-/*------------- DISCOVERY PAGE------------------ */
-
-.selector {
-  margin: 20em auto 0em auto;
-}
-
-.selectorbutton {
-  margin: 2em auto 2em auto;
-  width: 6em;
-  height: 6em;
-}
-
-.selectorbutton:hover {
-  font-weight: bolder;
-  font-size: x-large;
-  border-radius: 50%;
-  width: 7em;
-  height: 7em;
-  background-image: url("https://media.giphy.com/media/3o7btWtWIcrnr6Nvwc/giphy.gif");
-  background-size: 2em;
-  color: white;
-  border: 0.15em solid white;
-  cursor: pointer;
-}
-
-select {
-  display: flex;
-  text-align-last: center;
-  font-size: 1em;
-  font-weight: bolder;
-  background-color: white;
-  min-width: 10em;
-  height: 4em;
-  margin: 3em auto 1em auto;
-  padding: auto;
-  cursor: pointer;
-}
-
-.giphyresults {
-  border: 0.25em solid white;
-  height: 12em;
-  width: 12em;
-  border-radius: 50%;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  align-items: center;
-  grid-column-gap: 2em;
-  grid-row-gap: 8em;
-  color: white;
-  font-size: 1.5em;
-  margin: auto;
-}
-
-@media (max-width: 1900px) {
-  .grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media (max-width: 1225px) {
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 900px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
 
 /*------------- PROJECT PAGE------------------ */
 
@@ -511,6 +438,105 @@ iframe {
 
   iframe {
     display: none;
+  }
+}
+
+/*------------- DISCOVERY PAGE------------------ */
+
+.selector {
+  margin: 20em auto 0em auto;
+}
+
+.selectorbutton {
+  margin: 2em auto 2em auto;
+  width: 6em;
+  height: 6em;
+}
+
+.selectorbutton:hover {
+  font-weight: bolder;
+  font-size: x-large;
+  border-radius: 50%;
+  width: 7em;
+  height: 7em;
+  background-image: url("https://media.giphy.com/media/3o7btWtWIcrnr6Nvwc/giphy.gif");
+  background-size: 2em;
+  color: white;
+  border: 0.15em solid white;
+  cursor: pointer;
+}
+
+select {
+  display: flex;
+  text-align-last: center;
+  font-size: 1em;
+  font-weight: bolder;
+  background-color: white;
+  min-width: 10em;
+  height: 4em;
+  margin: 3em auto 1em auto;
+  padding: auto;
+  cursor: pointer;
+}
+
+.myvideonotes {
+  font-family: cursive;
+  color: white;
+  font-size: 2em;
+}
+
+.myvideogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.myvideos {
+  margin: 1em;
+  border: 0.5em solid white;
+}
+
+.myvideostitles {
+  padding: 0em;
+  margin: 2em auto 0em auto;
+}
+
+.giphyresults {
+  border: 0.25em solid white;
+  height: 12em;
+  width: 12em;
+  border-radius: 50%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  grid-column-gap: 2em;
+  grid-row-gap: 8em;
+  color: white;
+  font-size: 1.5em;
+  margin: auto auto 6em auto;
+}
+
+@media (max-width: 1900px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1225px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .myvideogrid {
+    grid-template-columns: 1fr;
   }
 }
 
