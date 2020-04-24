@@ -98,7 +98,7 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>My Flicks</h3>
-          <video width="400" height="225" src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587595196/Portfolio/MyFlicksVideo_rzqex7.mkv" controls></video>
+          <video width="400" height="225" src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688179/Portfolio/MyFlicksVideo_xmszqa.mp4" controls></video>
           <h3>MERN Application</h3>
           <p>MongoDB, Mongoose, Express, React.js, Node.js</p>
           <p>Save your favorite moves in an easy to use application.</p>
@@ -115,7 +115,7 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>The Fashion GIFs</h3>
-          <video width="400" height="225" src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587595019/Portfolio/FashionGifsVideo_qscamw.mkv" controls></video>
+          <video width="400" height="225" src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688905/Portfolio/FashionGifsVideo_rmtlwr.mp4" controls></video>
           <h3>React.js Application</h3>
           <p>CSS & React.js</p>
           <p>
@@ -137,7 +137,7 @@ function Projects() {
           <video
             width="400"
             height="225"
-            src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587595034/Portfolio/RetailBootcampVideo_uigssf.mkv"
+            src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688945/Portfolio/RetailBootcampVideo_wcvtd0.mp4"
             controls
           ></video>
           <h3>Vanilla JavaScript Application</h3>
