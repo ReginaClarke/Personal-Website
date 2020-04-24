@@ -80,7 +80,7 @@ header {
 
 @media (max-width: 380px) {
   header {
-    font-size: 50%;
+    font-size: 60%;
   }
 }
 
@@ -340,6 +340,11 @@ select {
 
 /*------------- PROJECT PAGE------------------ */
 
+video {
+  width: 25em;
+  height: 12em;
+}
+
 .projectview {
   margin: 18em 2em 0em 2em;
 }
@@ -417,7 +422,7 @@ select {
 
   .projectcontainer {
     border: 0.25em solid white;
-    width: 32em;
+    width: 33em;
     height: 33em;
     padding: 2em;
     font-size: 90%;
@@ -435,19 +440,10 @@ select {
 
   .projectcontainer {
     border: 0.25em solid white;
-    width: 33em;
-    height: 33em;
+    width: 32em;
+    height: 32em;
     padding: 2em;
     font-size: 70%;
-  }
-
-  video {
-    width: 300px;
-    height: 150px;
-  }
-
-  .projectbutton {
-    padding: 2em 0em 2em 0em;
   }
 }
 
@@ -468,13 +464,8 @@ select {
     font-size: 70%;
   }
 
-  video {
-    width: 300px;
-    height: 150px;
-  }
-
   .projectbutton {
-    padding: 2em 0em 2em 0em;
+    padding: 2em 0em;
   }
 }
 
@@ -486,13 +477,13 @@ select {
   .projectcontainer {
     border: 0.25em solid white;
     width: 25em;
-    height: 33em;
+    height: 35em;
     padding: 2em;
     font-size: 70%;
   }
 
   .projectbutton {
-    padding: 1em 0em 1em 0em;
+    padding: 1em 0em;
   }
 }
 
@@ -503,7 +494,7 @@ select {
 }
 
 iframe {
-  width: 50%;
+  width: 60%;
   height: 60em;
 }
 
@@ -513,7 +504,7 @@ iframe {
   }
 
   iframe {
-    height: 20em;
+    height: 30em;
   }
 }
 

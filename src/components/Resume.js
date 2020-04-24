@@ -14,7 +14,7 @@ function Resume() {
       <iframe
         title="Resume"
         className="resume"
-        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1587571377/Portfolio/Resume-Regina_Clarke_dgqtns.pdf"
+        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1587571377/Portfolio/Resume-Regina_Clarke_dgqtns.pdf#zoom=FitW"
         alt="resume"
       />
       <div>
