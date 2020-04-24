@@ -515,7 +515,7 @@ select {
   grid-row-gap: 8em;
   color: white;
   font-size: 1.5em;
-  margin: auto auto 6em auto;
+  margin: auto auto 3em auto;
 }
 
 @media (max-width: 1900px) {
@@ -537,6 +537,10 @@ select {
 
   .myvideogrid {
     grid-template-columns: 1fr;
+  }
+
+  .myvideos {
+    width: 50%;
   }
 }
 
@@ -609,25 +613,9 @@ footer {
   color: white;
 }
 
-/* @media (max-width: 1500px) {
-  .page404 {
-    margin-top: 6em;
-  }
-}
-
-@media (max-width: 900px) {
-  .page404 {
-    margin-top: 7em;
-  }
-} */
-
 @media (max-width: 500px) {
   .simplepage {
     margin: 40em auto 5em auto;
     font-size: 80%;
   }
-
-  /* .singleImage{
-    width:70%;
-  } */
 }
