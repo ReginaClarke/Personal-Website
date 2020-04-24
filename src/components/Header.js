@@ -36,7 +36,6 @@ function Header() {
         {/* <NavLink to={"/contact"} activeClassName={"active"}>
           Contact Me
         </NavLink> */}
-
       </nav>
     </header>
   );

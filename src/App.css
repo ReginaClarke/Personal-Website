@@ -15,26 +15,6 @@ body {
   height: 100%;
 }
 
-header {
-  display: flexbox;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
-  padding: 0em;
-  margin: auto;
-  width: 100%;
-  position: absolute;
-  top: 0em;
-  height: 12em;
-}
-
-.headerbackhome:hover {
-  font-size: 6em;
-  cursor: pointer;
-  width: fit-content;
-}
-
 p {
   color: white;
   margin: 0.5em auto;
@@ -64,6 +44,44 @@ h4 {
   justify-content: center;
   align-items: center;
   margin: 1em;
+}
+
+header {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  padding: 0em;
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  top: 0em;
+  height: 12em;
+}
+
+.headerbackhome:hover {
+  font-size: 6em;
+  cursor: pointer;
+  width: fit-content;
+}
+
+@media (max-width: 1100px) {
+  header {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  header {
+    font-size: 80%;
+  }
+}
+
+@media (max-width: 380px) {
+  header {
+    font-size: 50%;
+  }
 }
 
 button {
@@ -408,7 +426,7 @@ select {
 
 @media (max-width: 1100px) {
   .projectview {
-    margin: 16em 2em 0em 2em;
+    margin: 18em 2em 0em 2em;
   }
 
   .projectgrid {
@@ -417,7 +435,7 @@ select {
 
   .projectcontainer {
     border: 0.25em solid white;
-    width: 32em;
+    width: 33em;
     height: 33em;
     padding: 2em;
     font-size: 70%;
@@ -434,8 +452,47 @@ select {
 }
 
 @media (max-width: 900px) {
+  .projectview {
+    margin: 18em 2em 0em 2em;
+  }
+
   .projectgrid {
     grid-template-columns: 1fr;
+  }
+
+  .projectcontainer {
+    border: 0.25em solid white;
+    width: 30em;
+    height: 30em;
+    padding: 2em;
+    font-size: 70%;
+  }
+
+  video {
+    width: 300px;
+    height: 150px;
+  }
+
+  .projectbutton {
+    padding: 2em 0em 2em 0em;
+  }
+}
+
+@media (max-width: 550px) {
+  .projectview {
+    margin: 16em 1em 0em 1em;
+  }
+
+  .projectcontainer {
+    border: 0.25em solid white;
+    width: 25em;
+    height: 33em;
+    padding: 2em;
+    font-size: 70%;
+  }
+
+  .projectbutton {
+    padding: 1em 0em 1em 0em;
   }
 }
 
@@ -443,6 +500,17 @@ select {
 
 .resumeimage {
   margin: 18em auto 0em auto;
+}
+
+@media (max-width: 550px) {
+  .resumeimage {
+    margin: 13em 1em 0em 1em;
+  }
+
+  iframe {
+    width: 340px;
+    height: 430px;
+  }
 }
 
 /*----------------FOOTER-------------------------*/
@@ -510,6 +578,29 @@ footer {
 /*----------------404 PAGE ------------------------*/
 
 .page404 {
-  margin-top: 5em;
+  margin-top: 6.5em;
   color: white;
+}
+
+/* @media (max-width: 1500px) {
+  .page404 {
+    margin-top: 6em;
+  }
+}
+
+@media (max-width: 900px) {
+  .page404 {
+    margin-top: 7em;
+  }
+} */
+
+@media (max-width: 500px) {
+  .simplepage {
+    margin: 40em auto 5em auto;
+    font-size: 80%;
+  }
+
+  /* .singleImage{
+    width:70%;
+  } */
 }
