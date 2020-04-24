@@ -81,7 +81,7 @@ class Discovery extends Component {
 
         <div className="grid">{this.gifList()}</div>
         <h2 className="myvideonotes">
-          Or just enjoy some videos of me making things in my free time!
+          Or just enjoy some media of activities that happen in my free time!
         </h2>
 
         <div className="myvideogrid">
