@@ -449,8 +449,8 @@ iframe {
 
 .selectorbutton {
   margin: 2em auto 2em auto;
-  width: 6em;
-  height: 6em;
+  width: 5em;
+  height: 5em;
 }
 
 .selectorbutton:hover {
@@ -473,7 +473,7 @@ select {
   font-weight: bolder;
   background-color: white;
   min-width: 10em;
-  height: 4em;
+  height: 2em;
   margin: 3em auto 1em auto;
   padding: auto;
   cursor: pointer;
@@ -482,8 +482,8 @@ select {
 .myvideonotes {
   font-family: cursive;
   font-weight: lighter;
-  color: white;
-  font-size: 2em;
+  color: yellow;
+  font-size: 1.5em;
 }
 
 .myvideogrid {
@@ -523,7 +523,7 @@ select {
   grid-row-gap: 8em;
   color: white;
   font-size: 1.5em;
-  margin: auto auto 3em auto;
+  margin: auto auto 2.5em auto;
 }
 
 @media (max-width: 1900px) {
