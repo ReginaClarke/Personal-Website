@@ -503,8 +503,8 @@ select {
 }
 
 iframe {
-  width: 50em;
-  height: 88em;
+  width: 50%;
+  height: 60em;
 }
 
 @media (max-width: 550px) {
@@ -513,8 +513,7 @@ iframe {
   }
 
   iframe {
-    width: 15em;
-    height: 30em;
+    height: 20em;
   }
 }
 
