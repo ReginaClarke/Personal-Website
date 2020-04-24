@@ -11,11 +11,12 @@ function Resume() {
   return (
     <div className="resumeimage">
       <iframe
+        allowFullScreen
         title="Resume"
         scrolling="auto"
         type="application/pdf"
         className="resume"
-        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1587571377/Portfolio/Resume-Regina_Clarke_dgqtns.pdf#zoom=50"
+        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1587571377/Portfolio/Resume-Regina_Clarke_dgqtns.pdf#zoom=fitW"
         alt="resume"
       />
       <div>

@@ -490,22 +490,25 @@ video {
 /*----------------RESUME PAGE -------------------*/
 
 .resumeimage {
-  margin: 18em auto 0em auto;
+  margin: 20em auto 0em auto;
 }
 
 iframe {
   width: 80%;
   height: 75em;
+  border: 1.5em solid white;
+  padding: 1.5em;
 }
-
 
 @media (max-width: 550px) {
   .resumeimage {
-    margin: 13em 1em 0em 1em;
+    margin: 14em 1em 0em 1em;
   }
 
   iframe {
     height: 30em;
+    border: 1em solid white;
+    padding: 1em;
   }
 }
 
