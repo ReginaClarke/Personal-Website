@@ -505,10 +505,12 @@ iframe {
     margin: 14em 1em 0em 1em;
   }
 
+  .resumebutton {
+    margin: 8em auto 0em;
+  }
+
   iframe {
-    height: 30em;
-    border: 1em solid white;
-    padding: 1em;
+    display: none;
   }
 }
 

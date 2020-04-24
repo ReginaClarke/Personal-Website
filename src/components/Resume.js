@@ -20,8 +20,8 @@ function Resume() {
         alt="resume"
       />
       <div>
-        <button className="gettoknowme" onClick={resume}>
-          Additional Way to Download
+        <button className="gettoknowme resumebutton" onClick={resume}>
+          Download Resume
         </button>
       </div>
     </div>
