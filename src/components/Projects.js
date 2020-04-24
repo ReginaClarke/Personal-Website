@@ -78,7 +78,7 @@ function Projects() {
       <div className="projectgrid">
         <div className="projectcontainer">
           <h3>Instashop</h3>
-          <video width="400" height="225" src="" poster={InstashopPlaceholder}></video>
+          <video src="" poster={InstashopPlaceholder} preload="auto"></video>
           <h3>ROR and React Application</h3>
           <p>CSS, React.js, Ruby on Rails</p>
           <p>
@@ -98,9 +98,14 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>My Flicks</h3>
-          <video width="400" height="225" src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688179/Portfolio/MyFlicksVideo_xmszqa.mp4" controls></video>
+          <video controls preload="auto">
+            <source
+              src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688179/Portfolio/MyFlicksVideo_xmszqa.mp4"
+              type="video/mp4"
+            />
+          </video>
           <h3>MERN Application</h3>
-          <p>MongoDB, Mongoose, Express, React.js, Node.js</p>
+          <p>MongoDB, Mongoose, Express, React.js, Node.js, & the OMDB API</p>
           <p>Save your favorite moves in an easy to use application.</p>
           <button className="projectbutton" onClick={myflicksSite}>
             Live Site
@@ -115,7 +120,10 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>The Fashion GIFs</h3>
-          <video width="400" height="225" src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688905/Portfolio/FashionGifsVideo_rmtlwr.mp4" controls></video>
+          <video
+            src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688905/Portfolio/FashionGifsVideo_rmtlwr.mp4"
+            controls
+          ></video>
           <h3>React.js Application</h3>
           <p>CSS & React.js</p>
           <p>
@@ -135,8 +143,6 @@ function Projects() {
         <div className="projectcontainer">
           <h3>The Retail Bootcamp</h3>
           <video
-            width="400"
-            height="225"
             src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688945/Portfolio/RetailBootcampVideo_wcvtd0.mp4"
             controls
           ></video>
@@ -160,13 +166,7 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>Regina Clarke</h3>
-          <video
-            width="400"
-            height="225"
-            src=""
-            poster={Initials}
-            
-          ></video>
+          <video src="" poster={Initials}></video>
           <h3>React Application</h3>
           <p>React & CSS</p>
           <p>The current portfolio you are viewing</p>
