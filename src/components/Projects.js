@@ -98,7 +98,7 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>My Flicks</h3>
-          <video controls preload="auto">
+          <video controls preload="auto" muted loop autoplay>
             <source
               src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688179/Portfolio/MyFlicksVideo_xmszqa.mp4"
               type="video/mp4"
@@ -123,11 +123,15 @@ function Projects() {
           <video
             src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688905/Portfolio/FashionGifsVideo_rmtlwr.mp4"
             controls
+            muted
+            loop
+            autoplay
           ></video>
           <h3>React.js Application</h3>
           <p>CSS & React.js</p>
           <p>
-            A playful website that allows you to search GIFs related to fashion using the Giphy API.
+            A playful website that allows you to search GIFs related to fashion
+            using the Giphy API.
           </p>
           <button className="projectbutton" onClick={fashiongifySite}>
             Live Site
@@ -145,12 +149,16 @@ function Projects() {
           <video
             src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688945/Portfolio/RetailBootcampVideo_wcvtd0.mp4"
             controls
+            muted
+            loop
+            autoplay
           ></video>
           <h3>Vanilla JavaScript Application</h3>
           <p>JavaScript, CSS, & HTML</p>
           <p>
-            An informational website for small businesses. This allows users to search the last quarter
-            profitability for established public retailers utilizing the Last 10k API.
+            An informational website for small businesses. This allows users to
+            search the last quarter profitability for established public
+            retailers utilizing the Last 10k API.
           </p>
           <button className="projectbutton" onClick={bootcampSite}>
             Live Site
@@ -165,7 +173,7 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>Regina Clarke</h3>
-          <video src="" poster={Initials}></video>
+          <video src="" poster={Initials} controls muted loop autoplay></video>
           <h3>React Application</h3>
           <p>React & CSS</p>
           <p>The current portfolio you are viewing</p>
