@@ -2,7 +2,7 @@ import React from "react";
 
 const resume = function () {
   window.open(
-    "https://res.cloudinary.com/dolrvzlkq/image/upload/v1588028995/Portfolio/Resume_-_PM_SE_odd0l4.pdf",
+    "https://res.cloudinary.com/dolrvzlkq/image/upload/v1588029977/Portfolio/Resume_-_PM_SE_gitd9x.pdf",
     "_blank"
   );
 };
@@ -16,7 +16,7 @@ function Resume() {
         scrolling="auto"
         type="application/pdf"
         className="resume"
-        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1588028995/Portfolio/Resume_-_PM_SE_odd0l4.pdf"
+        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1588029977/Portfolio/Resume_-_PM_SE_gitd9x.pdf"
         alt="resume"
       />
       <div>
