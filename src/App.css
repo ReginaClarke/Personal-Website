@@ -61,7 +61,7 @@ header {
 }
 
 .headerbackhome:hover {
-  font-size: 6em;
+  font-size: 5em;
   cursor: pointer;
   width: fit-content;
 }
@@ -125,7 +125,7 @@ nav a:hover {
   border: 0.25em black;
   border-style: double;
   font-weight: bolder;
-  font-size: x-large;
+  font-size: large;
   border-radius: 50%;
   width: 5em;
   cursor: pointer;
@@ -248,12 +248,16 @@ nav a:hover {
   .headshot {
     height: 8em;
     width: 8em;
+    border: 0.75em solid white;
+    padding: 1em;
   }
 }
 
 @media (max-width: 500px) {
   .headshot {
     margin: 13em auto 0em auto;
+    border: 0.5em solid white;
+    padding: 0.75em;
   }
 }
 
@@ -335,6 +339,14 @@ video {
     border: 0.25em solid white;
     width: 33em;
     height: 33em;
+  }
+
+  .projectbutton:hover {
+    font-weight: bold;
+    font-size: xx-small;
+    width: 5.75em;
+    height: 5.75em;
+    border: 0.25em solid white;
   }
 }
 
