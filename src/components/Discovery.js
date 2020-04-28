@@ -85,22 +85,10 @@ class Discovery extends Component {
         </h2>
 
         <div className="myvideogrid">
-          <div className="">
-            <h3 className="myvideostitles">Millinery (Hat Making)</h3>
-            <p className="myvideossubtitles">No Sound</p>
-            <video controls preload="auto" className="myvideos">
-              <source
-                src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587708532/Portfolio/FinishedHat_npatml.mov"
-                type="video/mp4"
-              />
-              Your browser does not support the video.
-            </video>
-          </div>
-
-          <div className="">
+          <div>
             <h3 className="myvideostitles">Making Adidas Stan Smith Shoes</h3>
             <p className="myvideossubtitles">Sound Optional</p>
-            <video controls preload="auto" className="myvideos">
+            <video className="myvideos" controls muted loop autoplay>
               <source
                 src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587712780/Portfolio/Day2StanSmithClassWithYuji_gd2vk6.mov"
                 type="video/mp4"
@@ -109,27 +97,112 @@ class Discovery extends Component {
             </video>
           </div>
 
-          <div className="">
-            <h3 className="myvideostitles">AfroTech Conference 2020</h3>
+          <div>
+            <h3 className="myvideostitles">
+              Finishing Adidas Stan Smith Shoes
+            </h3>
             <p className="myvideossubtitles">Sound Optional</p>
-            <video controls preload="auto" className="myvideos">
+            <video
+              className="myvideos"
+              src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1588080325/Portfolio/StanSmithCompletion_xnp0qs.mov"
+              type="video/mp4"
+              controls
+              muted
+              loop
+              autoplay
+            >
+              Your browser does not support the video.
+            </video>
+          </div>
+
+          <div>
+            <h3 className="myvideostitles">AfroTech Speaker Delane Parnell</h3>
+            <p className="myvideossubtitles">Sound Optional</p>
+            <video
+              className="myvideos"
+              src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1588080792/Portfolio/DelaneParnelGamerAfroTech_wl8ail.mp4"
+              type="video/mp4"
+              controls
+              muted
+              loop
+              autoplay
+            >
+              Your browser does not support the video.
+            </video>
+          </div>
+
+          <div>
+            <h3 className="myvideostitles">AfroTech Speaker Zac Hinton Product Designer</h3>
+            <p className="myvideossubtitles">Sound Optional</p>
+            <video
+              className="myvideos"
+              src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1588085131/Portfolio/AfroTechProductDesignerZac_ag6dnp.mp4"
+              type="video/mp4"
+              controls
+              muted
+              loop
+              autoplay
+            >
+              Your browser does not support the video.
+            </video>
+          </div>
+
+          <div>
+            <h3 className="myvideostitles">Millinery (Hat Making)</h3>
+            <p className="myvideossubtitles">No Sound</p>
+            <video className="myvideos" controls muted loop autoplay>
               <source
-                src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587708532/Portfolio/AfrotechTalk_kuwr4z.mov"
+                src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587708532/Portfolio/FinishedHat_npatml.mov"
                 type="video/mp4"
               />
               Your browser does not support the video.
             </video>
           </div>
 
-          <div className="">
+          <div>
+            <h3 className="myvideostitles">Mule Making Class</h3>
+            <p className="myvideossubtitles">No Sound</p>
+            <video
+              className="myvideos"
+              src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1588084419/Portfolio/MakingMulesClip_fatx8p.mp4"
+            >
+              /> Your browser does not support the video.
+            </video>
+          </div>
+
+          <div>
+            <h3 className="myvideostitles">Mule Shoemaking</h3>
+            <p className="myvideossubtitles">No Sound</p>
+            <video
+              className="myvideos"
+              poster="https://res.cloudinary.com/dolrvzlkq/image/upload/v1588080318/Portfolio/MuleMade_xq77yf.jpg"
+              src=""
+            >
+              /> Your browser does not support the video.
+            </video>
+          </div>
+
+          <div>
             <h3 className="myvideostitles">UX 2-Day Bootcamp</h3>
             <p className="myvideossubtitles">No Sound</p>
-            <video controls preload="auto" className="myvideos">
+            <video className="myvideos" controls muted loop autoplay>
               <source
-                src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587708532/Portfolio/AfrotechTalk_kuwr4z.mov"
+                src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587707626/Portfolio/UXBootCamp_qtvnmo.mp4"
                 type="video/mp4"
               />
               Your browser does not support the video.
+            </video>
+          </div>
+
+          <div>
+            <h3 className="myvideostitles">UX 2-Day Bootcamp</h3>
+            <p className="myvideossubtitles">No Sound</p>
+            <video
+              className="myvideos"
+              poster="https://res.cloudinary.com/dolrvzlkq/image/upload/v1588080318/Portfolio/DrawingSkillsUX_lj8hfn.jpg"
+              src=""
+            >
+              /> Your browser does not support the video.
             </video>
           </div>
         </div>
