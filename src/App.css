@@ -309,9 +309,7 @@ video {
 
 .projectbutton:hover {
   font-weight: bolder;
-  font-size: large;
   border-radius: 50%;
-  width: 6em;
   background-image: url("https://media.giphy.com/media/3o7btWtWIcrnr6Nvwc/giphy.gif");
   background-size: 3em;
   color: white;
@@ -347,8 +345,6 @@ video {
   .projectbutton:hover {
     font-weight: bold;
     font-size: xx-small;
-    width: 5.75em;
-    height: 5.75em;
     border: 0.25em solid white;
   }
 }
@@ -424,9 +420,9 @@ video {
     font-size: 70%;
   }
 
-  .projectbutton {
+  /* .projectbutton {
     padding: 1em 0em;
-  }
+  } */
 }
 
 /*----------------RESUME PAGE -------------------*/
