@@ -2,7 +2,7 @@ import React from "react";
 
 const resume = function () {
   window.open(
-    "https://res.cloudinary.com/dolrvzlkq/image/upload/v1588030732/Portfolio/Resume_-_PM_SE_rcuirf.pdf",
+    "https://res.cloudinary.com/dolrvzlkq/image/upload/v1588088955/Portfolio/Resume-Regina_Clarke-Product_Manager_Software_Engineer_ky50ad.pdf",
     "_blank"
   );
 };
@@ -16,7 +16,7 @@ function Resume() {
         scrolling="auto"
         type="application/pdf"
         className="resume"
-        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1588030732/Portfolio/Resume_-_PM_SE_rcuirf.pdf"
+        src="https://res.cloudinary.com/dolrvzlkq/image/upload/v1588088955/Portfolio/Resume-Regina_Clarke-Product_Manager_Software_Engineer_ky50ad.pdf"
         alt="resume"
       />
       <div>
