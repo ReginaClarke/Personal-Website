@@ -109,18 +109,21 @@ nav {
   background-color: rgb(255, 255, 255);
   color: black;
   font-family: cursive;
+  text-decoration: none;
 }
 
-nav a:link {
+.navLinks:link {
   text-decoration: none;
   font-weight: bolder;
-}
-
-nav a:visited {
   color: black;
 }
 
-nav a:hover {
+.navLinks:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.navLinks:hover {
   color: black;
   border: 0.25em black;
   border-style: double;
@@ -591,7 +594,7 @@ footer {
   font-size: 1.5em;
   text-align: center;
   text-decoration: none;
-  margin: .2em 0.5em 0em 0.5em;
+  margin: 0.2em 0.5em 0em 0.5em;
   cursor: pointer;
   border-radius: 50%;
   background: black;

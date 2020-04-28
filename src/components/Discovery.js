@@ -108,6 +108,30 @@ class Discovery extends Component {
               Your browser does not support the video.
             </video>
           </div>
+
+          <div className="">
+            <h3 className="myvideostitles">AfroTech Conference 2020</h3>
+            <p className="myvideossubtitles">Sound Optional</p>
+            <video controls preload="auto" className="myvideos">
+              <source
+                src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587708532/Portfolio/AfrotechTalk_kuwr4z.mov"
+                type="video/mp4"
+              />
+              Your browser does not support the video.
+            </video>
+          </div>
+
+          <div className="">
+            <h3 className="myvideostitles">UX 2-Day Bootcamp</h3>
+            <p className="myvideossubtitles">No Sound</p>
+            <video controls preload="auto" className="myvideos">
+              <source
+                src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587708532/Portfolio/AfrotechTalk_kuwr4z.mov"
+                type="video/mp4"
+              />
+              Your browser does not support the video.
+            </video>
+          </div>
         </div>
       </>
     );

@@ -12,24 +12,24 @@ function Header() {
         Regina Clarke
       </h1>
       <h4>Software Engineer & Product Manager</h4>
-      <nav className="navLinks">
-        <NavLink exact to={"/"} activeClassName={"active"}>
+      <nav>
+        <NavLink exact to={"/"} className="navLinks" activeClassName={"active"}>
           Home
         </NavLink>
 
-        <NavLink to={"/about"} activeClassName={"active"}>
+        <NavLink to={"/about"} className="navLinks" activeClassName={"active"}>
           About
         </NavLink>
 
-        <NavLink to={"/projects"} activeClassName={"active"}>
+        <NavLink to={"/projects"} className="navLinks" activeClassName={"active"}>
           Projects
         </NavLink>
 
-        <NavLink to={"/resume"} activeClassName={"active"}>
+        <NavLink to={"/resume"} className="navLinks" activeClassName={"active"}>
           Resume
         </NavLink>
 
-        <NavLink to={"/discovery"} activeClassName={"active"}>
+        <NavLink to={"/discovery"} className="navLinks" activeClassName={"active"}>
           Discovery
         </NavLink>
 
