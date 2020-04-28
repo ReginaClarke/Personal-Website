@@ -503,7 +503,7 @@ select {
 
 .myvideogrid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .myvideos {
@@ -545,10 +545,27 @@ select {
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .myvideogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 1500px) {
+  .myvideogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (max-width: 1225px) {
   .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .myvideogrid {
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
