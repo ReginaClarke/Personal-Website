@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import axios from "axios";
+import GiphyLogo from "../assets/images/GiphyLogo.png";
 const BASE_URL = "https://api.giphy.com/v1/gifs/search?api_key=";
 const GIPHY_KEY = process.env.REACT_APP_GIPHY_KEY;
+
 
 class Discovery extends Component {
   constructor() {
@@ -62,6 +64,7 @@ class Discovery extends Component {
       <>
         <div className="selector">
           <h3>Search fun GIFs that describe me!</h3>
+          <img className="" src={GiphyLogo} alt="giphylogo" />
           <form onSubmit={this.handleSubmit}>
             <select onChange={this.handleSelectChange}>
               <option value="">Discover Here</option>
