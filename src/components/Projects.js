@@ -42,9 +42,9 @@ const fashiongifyGithub = function () {
   window.open("https://github.com/ReginaClarke/The-Fashion-Giphy", "_blank");
 };
 
-const fashiongifyWireframe = function () {
-  window.open("", "_blank");
-};
+// const fashiongifyWireframe = function () {
+//   window.open("", "_blank");
+// };
 ///////////////// THE RETAIL BOOTCAMP //////////////////
 const bootcampSite = function () {
   window.open("https://theretailbootcamp.netlify.app/", "_blank");
@@ -67,9 +67,9 @@ const portfolioGithub = function () {
   window.open("https://github.com/ReginaClarke/Personal-Website", "_blank");
 };
 
-const portfolioWireframe = function () {
-  window.open("", "_blank");
-};
+// const portfolioWireframe = function () {
+//   window.open("", "_blank");
+// };
 //------------------COMPONENT----------------------------//
 
 function Projects() {
@@ -139,9 +139,9 @@ function Projects() {
           <button className="projectbutton" onClick={fashiongifyGithub}>
             Code
           </button>
-          <button className="projectbutton" onClick={fashiongifyWireframe}>
+          {/* <button className="projectbutton" onClick={fashiongifyWireframe}>
             Wireframe
-          </button>
+          </button> */}
         </div>
 
         <div className="projectcontainer">
@@ -183,9 +183,9 @@ function Projects() {
           <button className="projectbutton" onClick={portfolioGithub}>
             Code
           </button>
-          <button className="projectbutton" onClick={portfolioWireframe}>
+          {/* <button className="projectbutton" onClick={portfolioWireframe}>
             Wireframe
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
