@@ -132,7 +132,9 @@ class Discovery extends Component {
           </div>
 
           <div>
-            <h3 className="myvideostitles">AfroTech Speaker Zac Hinton Product Designer</h3>
+            <h3 className="myvideostitles">
+              AfroTech Speaker Zac Hinton Product Designer
+            </h3>
             <p className="myvideossubtitles">Sound Optional</p>
             <video
               className="myvideos"
@@ -164,6 +166,10 @@ class Discovery extends Component {
             <p className="myvideossubtitles">No Sound</p>
             <video
               className="myvideos"
+              controls
+              muted
+              loop
+              autoplay
               src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1588084419/Portfolio/MakingMulesClip_fatx8p.mp4"
             >
               /> Your browser does not support the video.
