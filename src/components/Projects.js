@@ -83,7 +83,7 @@ function Projects() {
           <p>CSS, React.js, Ruby on Rails</p>
           <p>
             Search beautiful photos for inspiration and also have the ability to
-            instantly buy anything seen in the photos.
+            instantly buy anything seen in the photos. After all, digital shopping continues to rise as well as social media.
           </p>
           <button className="projectbutton" onClick={instashopSite}>
             Live Site
@@ -106,7 +106,7 @@ function Projects() {
           </video>
           <h3>MERN Application</h3>
           <p>MongoDB, Mongoose, Express, React.js, Node.js, & the OMDB API</p>
-          <p>Save your favorite moves in an easy to use application.</p>
+          <p>Ever forget the name of that amazing movie, you can now save them in an easy to use application.</p>
           <button className="projectbutton" onClick={myflicksSite}>
             Live Site
           </button>
