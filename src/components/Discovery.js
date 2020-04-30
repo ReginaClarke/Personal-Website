@@ -163,7 +163,7 @@ class Discovery extends Component {
 
           <div>
             <h3 className="myvideostitles">Mule Making Class</h3>
-            <p className="myvideossubtitles">No Sound</p>
+            <p className="myvideossubtitles">Sound Optional</p>
             <video
               className="myvideos"
               controls
