@@ -1,6 +1,6 @@
 # The Portfolio of Regina Clarke
 
-## Description
+### Description
 
 This is a compilation of my work in tech with a bit about my past career and some things I do in my free time.
 
@@ -21,3 +21,9 @@ This is a compilation of my work in tech with a bit about my past career and som
 4. Implementing (Building the solution)
 5. Testing (Testing the solution)
 6. Launch (Ship solution and measure success)
+
+
+### The Code
+I'm utilizing React.js along with CSS. I'm also utilzing the Giphy.com API for a fun page.
+
+I'm in the process of navigation how to create the contact form that can easily notify me such as leveraging the Nelify platform.
