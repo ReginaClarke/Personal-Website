@@ -3,6 +3,19 @@ import InstashopPlaceholder from "../assets/images/InstashopPlaceholder.png";
 import Initials from "../assets/images/Initials.jpg";
 
 //------------------external links----------------------------//
+const realSnapsSite = function () {
+  window.open("https://www.realsnaps.com/", "_blank");
+};
+
+// const realSnapsGithub = function () {
+//   window.open("", "_blank");
+// };
+
+// const realSnapWireframe = function () {
+//   window.open("", "_blank");
+// };
+///////////////// INSTASHOP/////////////////
+
 const instashopSite = function () {
   window.open("https://instashop.surge.sh/", "_blank");
 };
@@ -77,7 +90,41 @@ function Projects() {
     <div className="projectview">
       <div className="projectgrid">
         <div className="projectcontainer">
+          <h3>Real Snaps</h3>
+          <p>Real Estate Photography</p>
+          {/* <video> */}
+          <iframe
+            title="realsnaps"
+            className="youtubevideo"
+            src="https://www.youtube.com/embed/IorwPpQ-CYc?start=3"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+          {/* </video> */}
+          <h3>Work in Progress</h3>
+          <p>TBD Languages</p>
+          <p>
+            Work in progress: Working with a client who is a real estate
+            photographers needing is website to be improved. I am providing
+            proposals to help him gain conversion, improve client satisfaction,
+            and increase revenue streams. Currently evaluating if he should
+            continue to leverage Zenfolio or build this from scratch.
+          </p>
+          <button className="projectbutton" onClick={realSnapsSite}>
+            Live Site
+          </button>
+          {/* <button className="projectbutton" onClick={realSnapGithub}>
+            Code
+          </button> */}
+          {/* <button className="projectbutton" onClick={realSnapWireframe}>
+            Wireframe
+          </button> */}
+        </div>
+
+        <div className="projectcontainer">
           <h3>Instashop</h3>
+          <p>Social Media Commerce for B2C</p>
           <video src="" poster={InstashopPlaceholder} preload="auto"></video>
           <h3>ROR and React Application</h3>
           <p>CSS, React.js, Ruby on Rails</p>
@@ -99,7 +146,8 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>My Flicks</h3>
-          <video controls preload="auto" muted loop autoplay>
+          <p>Movie Tracking</p>
+          <video controls preload="auto" muted loop>
             <source
               src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688179/Portfolio/MyFlicksVideo_xmszqa.mp4"
               type="video/mp4"
@@ -124,12 +172,12 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>The Fashion GIFs</h3>
+          <p>Fun with Fashion</p>
           <video
             src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688905/Portfolio/FashionGifsVideo_rmtlwr.mp4"
             controls
             muted
             loop
-            autoplay
           ></video>
           <h3>React.js Application</h3>
           <p>CSS & React.js</p>
@@ -150,12 +198,12 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>The Retail Bootcamp</h3>
+          <p>Retail Business Fundamentals</p>
           <video
             src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688945/Portfolio/RetailBootcampVideo_wcvtd0.mp4"
             controls
             muted
             loop
-            autoplay
           ></video>
           <h3>Vanilla JavaScript Application</h3>
           <p>JavaScript, CSS, & HTML</p>
@@ -177,6 +225,7 @@ function Projects() {
 
         <div className="projectcontainer">
           <h3>Regina Clarke</h3>
+          <p>Portfolio Website</p>
           <video src="" poster={Initials}></video>
           <h3>React Application</h3>
           <p>React & CSS</p>

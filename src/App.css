@@ -279,6 +279,12 @@ video {
   height: 12em;
 }
 
+.youtubevideo {
+  width: 25em;
+  height: 12em;
+  border: none;
+}
+
 .projectview {
   margin: 18em 2em 0em 2em;
 }
@@ -397,7 +403,7 @@ video {
   .projectcontainer {
     border: 0.25em solid white;
     width: 30em;
-    height: 30em;
+    height: 35em;
     padding: 2em;
     font-size: 70%;
   }
@@ -423,6 +429,14 @@ video {
   /* .projectbutton {
     padding: 1em 0em;
   } */
+}
+
+@media (max-width: 300px) {
+  .youtubevideo {
+    width: 15em;
+    height: 10em;
+    border: none;
+  }
 }
 
 /*----------------RESUME PAGE -------------------*/
