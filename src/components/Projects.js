@@ -99,7 +99,7 @@ function Projects() {
             src="https://www.youtube.com/embed/IorwPpQ-CYc?start=3"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
+            allowFullScreen="1"
           ></iframe>
           {/* </video> */}
           <h3>Work in Progress</h3>

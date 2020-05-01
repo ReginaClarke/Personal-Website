@@ -419,24 +419,14 @@ video {
   }
 
   .projectcontainer {
-    border: 0.25em solid white;
-    width: 25em;
-    height: 35em;
-    padding: 2em;
-    font-size: 70%;
+    /* border: none; */
+    /* width: 30em;
+    height: 35em; */
+    padding: 1em;
+    /* font-size: 70%; */
   }
 
-  /* .projectbutton {
-    padding: 1em 0em;
-  } */
-}
 
-@media (max-width: 300px) {
-  .youtubevideo {
-    width: 15em;
-    height: 10em;
-    border: none;
-  }
 }
 
 /*----------------RESUME PAGE -------------------*/
