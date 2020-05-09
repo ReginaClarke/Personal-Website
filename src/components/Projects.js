@@ -7,13 +7,19 @@ const realSnapsSite = function () {
   window.open("https://www.realsnaps.com/", "_blank");
 };
 
-// const realSnapsGithub = function () {
-//   window.open("", "_blank");
-// };
+const realSnapCaseStudy = function () {
+  window.open(
+    "https://drive.google.com/file/d/1TyXtitwfixuvEtFsJBWEgRnSqtMWsrvR/view?usp=sharing",
+    "_blank"
+  );
+};
 
-// const realSnapWireframe = function () {
-//   window.open("", "_blank");
-// };
+const realSnapLiveReview = function () {
+  window.open(
+    "https://drive.google.com/file/d/18zZGzAVUzT8V9VZlR-77FdJ9ESw7Sdta/view?usp=sharing",
+    "_blank"
+  );
+};
 ///////////////// INSTASHOP/////////////////
 
 const instashopSite = function () {
@@ -93,33 +99,32 @@ function Projects() {
           <h3>Real Snaps</h3>
           <p>Real Estate Photography</p>
           {/* <video> */}
-          <iframe
-            title="realsnaps"
-            className="youtubevideo"
-            src="https://www.youtube.com/embed/IorwPpQ-CYc?start=3"
-            frameBorder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen="1"
-          ></iframe>
+            <iframe
+              title="realsnaps"
+              className="youtubevideo"
+              src="https://www.youtube.com/embed/IorwPpQ-CYc"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           {/* </video> */}
           <h3>Work in Progress</h3>
           <p>TBD Languages</p>
           <p>
             Work in progress: Working with a client who is a real estate
-            photographers needing is website to be improved. I am providing
-            proposals to help him gain conversion, improve client satisfaction,
-            and increase revenue streams. Currently evaluating if he should
-            continue to leverage Zenfolio or build this from scratch.
+            photographers needing is website to be improved. I created a roadmap
+            to help him gain conversion, improve client satisfaction, and
+            increase revenue streams.
           </p>
           <button className="projectbutton" onClick={realSnapsSite}>
             Live Site
           </button>
-          {/* <button className="projectbutton" onClick={realSnapGithub}>
-            Code
-          </button> */}
-          {/* <button className="projectbutton" onClick={realSnapWireframe}>
-            Wireframe
-          </button> */}
+          <button className="projectbutton" onClick={realSnapCaseStudy}>
+            Roadmap
+          </button>
+          <button className="projectbutton" onClick={realSnapLiveReview}>
+            LiveReview
+          </button>
         </div>
 
         <div className="projectcontainer">
@@ -147,7 +152,7 @@ function Projects() {
         <div className="projectcontainer">
           <h3>My Flicks</h3>
           <p>Movie Tracking</p>
-          <video controls preload="auto" muted loop>
+          <video controls muted loop>
             <source
               src="https://res.cloudinary.com/dolrvzlkq/video/upload/v1587688179/Portfolio/MyFlicksVideo_xmszqa.mp4"
               type="video/mp4"
