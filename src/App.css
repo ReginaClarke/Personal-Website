@@ -157,25 +157,33 @@ nav {
   height: 25%;
 }
 
+.homepage {
+  margin: 0em auto 1em;
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
 @media (max-width: 1900px) {
   .logo {
     margin: 12em auto 0em auto;
-    width: 35%;
-    height: 35%;
+    width: 25%;
+    height: 25%;
   }
 }
 
 @media (max-width: 1225px) {
   .logo {
     margin: 12em auto 0em auto;
-    width: 45%;
-    height: 45%;
+    /* width: 35%;
+    height: 35%; */
   }
 }
 
 @media (max-width: 900px) {
   .logo {
-    margin: 12em auto 0em auto;
+    margin: 10em auto 0em auto;
     width: 55%;
     height: 55%;
   }
@@ -189,20 +197,13 @@ nav {
   }
 }
 
-.homepage {
-  margin: 0em auto 3em;
-  padding: 0em auto 6em auto;
-  width: 80%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: lighter;
-  font-size: 1.5em;
-}
+
 
 .gettoknowme {
   background-color: white;
   font-size: 1em;
   border-radius: 50%;
-  margin: 1em auto 2em auto;
+  margin: 0em auto 0em auto;
   height: 8em;
   width: 8em;
   font-weight: bold;
@@ -230,12 +231,12 @@ nav {
   width: 13em;
   border-radius: 50%;
   border: 1em solid white;
-  padding: 1em;
+  /* padding: 1em; */
 }
 
 .aboutMe {
   color: white;
-  margin: 1em auto 2em;
+  margin: 1em auto 1em;
   width: 80%;
   font-size: 0.85em;
 }
@@ -280,9 +281,11 @@ video {
 }
 
 .youtubevideo {
-  width: 25em;
+  width: 28em;
   height: 12em;
   border: none;
+  margin: 0em auto;
+  padding: 0em;
 }
 
 .projectview {
@@ -294,9 +297,9 @@ video {
   justify-content: space-evenly;
   margin: auto;
   border: 0.25em solid white;
-  padding: 2em 1em 0em 1em;
+  padding: 2em 1em 1em 1em;
   width: 40em;
-  height: 40em;
+  height: 42em;
 }
 
 .projectcontainer:hover {
@@ -345,7 +348,7 @@ video {
   .projectcontainer {
     border: 0.25em solid white;
     width: 33em;
-    height: 33em;
+    height: 35em;
   }
 
   .projectbutton:hover {
@@ -367,7 +370,7 @@ video {
   .projectcontainer {
     border: 0.25em solid white;
     width: 33em;
-    height: 33em;
+    height: 35em;
     padding: 2em;
     font-size: 90%;
   }
@@ -385,7 +388,7 @@ video {
   .projectcontainer {
     border: 0.25em solid white;
     width: 32em;
-    height: 32em;
+    height: 35em;
     padding: 2em;
     font-size: 70%;
   }
@@ -419,24 +422,14 @@ video {
   }
 
   .projectcontainer {
-    border: 0.25em solid white;
-    width: 25em;
-    height: 35em;
-    padding: 2em;
-    font-size: 70%;
+    /* border: none; */
+    /* width: 30em;
+    height: 35em; */
+    padding: 1em;
+    /* font-size: 70%; */
   }
 
-  /* .projectbutton {
-    padding: 1em 0em;
-  } */
-}
 
-@media (max-width: 300px) {
-  .youtubevideo {
-    width: 15em;
-    height: 10em;
-    border: none;
-  }
 }
 
 /*----------------RESUME PAGE -------------------*/
