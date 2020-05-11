@@ -302,10 +302,10 @@ video {
   height: 42em;
 }
 
-.projectcontainer:hover {
+/* .projectcontainer:hover {
   background-image: url("https://media.giphy.com/media/3o7btWtWIcrnr6Nvwc/giphy.gif");
   background-size: 6em;
-}
+} */
 
 .projectbutton {
   border-radius: 100%;
@@ -422,11 +422,7 @@ video {
   }
 
   .projectcontainer {
-    /* border: none; */
-    /* width: 30em;
-    height: 35em; */
     padding: 1em;
-    /* font-size: 70%; */
   }
 
 
