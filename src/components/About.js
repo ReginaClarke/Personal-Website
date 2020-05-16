@@ -14,7 +14,7 @@ function About() {
         businesses based on my insight. 
         <br />
         <br />
-        My strength in strategy is knowing just enough about many roles for a well rounded perspective, good understanding of knowing the larger impact, and the insight to ensure the inclusion of key stakeholders. This is a key reason for my need to learn softwear engineering as I transition to the tech industry.
+        My strength in strategy is knowing just enough about many roles for a well rounded perspective, a good understanding of knowing the larger impact, and the insight to ensure the inclusion of key stakeholders. This is a key reason for my need to learn software engineering as I transition to the tech industry.
         <br />
         <br />
         I’ve managed areas of businesses worth over $100 million. I’ve turned
