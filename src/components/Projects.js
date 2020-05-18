@@ -99,22 +99,22 @@ function Projects() {
           <h3>Real Snaps</h3>
           <p>Real Estate Photography</p>
           {/* <video> */}
-            <iframe
-              title="realsnaps"
-              className="youtubevideo"
-              src="https://www.youtube.com/embed/IorwPpQ-CYc"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
+          <iframe
+            title="realsnaps"
+            className="youtubevideo"
+            src="https://www.youtube.com/embed/IorwPpQ-CYc"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
           {/* </video> */}
-          <h3>Work in Progress</h3>
-          <p>TBD Languages</p>
+          <h3>Work in Progress: Product Management</h3>
+          <p>Zenfolio Platform (No Coding)</p>
           <p>
-            Work in progress: Working with a client who is a real estate
-            photographers needing is website to be improved. I created a roadmap
-            to help him gain conversion, improve client satisfaction, and
-            increase revenue streams.
+            Work in progress: A client who is a real estate photographer
+            required a website revision. I created a roadmap of features to help
+            him improve conversion, improve client satisfaction, and increase
+            revenue streams.
           </p>
           <button className="projectbutton" onClick={realSnapsSite}>
             Live Site
