@@ -1,13 +1,22 @@
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-  background-color: black;
   margin: auto;
   width: 100%;
   height: 100%;
+  animation: pulse 15s;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #4f4f4f;
+  }
+  100% {
+    background-color: #000000;
+  }
 }
 
 #root {
@@ -98,48 +107,38 @@ button:hover {
   cursor: pointer;
 }
 
-nav {
+.navbar-nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
   margin: auto;
-  height: 3em;
+  height: 1em;
   font-size: 1.25em;
-  background-color: rgb(255, 255, 255);
   color: black;
   font-family: cursive;
   text-decoration: none;
 }
 
-.navLinks:link {
-  text-decoration: none;
-  font-weight: bolder;
-  color: black;
+@media (max-width: 845px) {
+  .bg-light {
+    background-color: rgba(0, 0, 0, 0)!important;
+ 
+  }
+
+  .navbar-toggler {
+    background-color: white;
+    height: 3em;
+    width: 3em;
+  }
 }
 
-.navLinks:visited {
-  text-decoration: none;
-  color: black;
-}
-
-.navLinks:hover {
-  color: black;
-  border: 0.25em black;
-  border-style: double;
-  font-weight: bolder;
-  font-size: large;
-  border-radius: 50%;
-  width: 5em;
-  cursor: pointer;
-}
-
-@media (max-width: 385px) {
+/* @media (max-width: 385px) {
   nav {
     display: grid;
     height: fit-content;
   }
-}
+} */
 .singleImage {
   height: 18em;
   width: 18em;
@@ -158,13 +157,46 @@ nav {
 }
 
 .homepage {
-  margin: 0em auto 1em;
-  width: 80%;
+  margin: 1em auto;
+  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 1.5em;
 }
 
+/* ----------------------- */
+/* https://www.w3docs.com/snippets/css/how-to-create-a-typewriter-text-with-only-css.html */
+.typewriter {
+  font-family: monospace;
+  font-size: 1em;
+  letter-spacing: 0.17em;
+  margin: 2em 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.1em solid pink;
+  animation: typing 4s steps(30, end), blinking-cursor 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinking-cursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: pink;
+  }
+}
+
+/* ----------------------------------- */
 @media (max-width: 1900px) {
   .logo {
     margin: 12em auto 0em auto;
@@ -176,8 +208,6 @@ nav {
 @media (max-width: 1225px) {
   .logo {
     margin: 12em auto 0em auto;
-    /* width: 35%;
-    height: 35%; */
   }
 }
 
@@ -187,6 +217,11 @@ nav {
     width: 55%;
     height: 55%;
   }
+
+  .typewriter {
+    font-size: 100%;
+    white-space: normal;
+  }
 }
 
 @media (max-width: 385px) {
@@ -195,19 +230,22 @@ nav {
     width: 65%;
     height: 65%;
   }
+
+  .typewriter {
+    font-size: 100%;
+  }
 }
-
-
 
 .gettoknowme {
   background-color: white;
-  font-size: 1em;
+  font-size: 0.75em;
   border-radius: 50%;
   margin: 0em auto 0em auto;
-  height: 8em;
-  width: 8em;
+  height: 5em;
+  width: 5em;
   font-weight: bold;
   text-decoration: none;
+  padding: 0.5em;
 }
 
 .gettoknowme:hover {
@@ -223,28 +261,44 @@ nav {
 
 /*------------- ABOUT PAGE------------------ */
 
+.logoCompanies {
+  margin: 0.25em auto 0.25em auto;
+  width: 8em;
+  /* height: 15%; */
+}
+
+.logogrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0.25em;
+  align-items: center;
+}
 .headshot {
-  margin: 13em auto 0em auto;
+  margin: 10em auto 0em auto;
   border: 1em solid white;
   border-radius: 50%;
-  height: 13em;
-  width: 13em;
+  height: 10em;
+  width: 10em;
   border-radius: 50%;
-  border: 1em solid white;
-  /* padding: 1em; */
+  border: 0.5em solid white;
+  padding: 0.5em;
 }
 
 .aboutMe {
   color: white;
   margin: 1em auto 1em;
   width: 80%;
-  font-size: 0.85em;
+  font-size: 0.75em;
 }
 
 @media (max-width: 1900px) {
   .headshot {
     height: 10em;
     width: 10em;
+  }
+
+  .logogrid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
@@ -255,19 +309,37 @@ nav {
     border: 0.75em solid white;
     padding: 1em;
   }
+
+  .logogrid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .logogrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .headshot {
+    margin: 10em auto 0em auto;
+  }
 }
 
 @media (max-width: 500px) {
   .headshot {
-    margin: 13em auto 0em auto;
+    margin: 11em auto 0em auto;
     border: 0.5em solid white;
     padding: 0.75em;
+  }
+
+  .logogrid {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (max-width: 385px) {
   .headshot {
-    margin: 10em auto 0em auto;
+    margin: 9em auto 0em auto;
     height: 5em;
     width: 5em;
   }
@@ -302,18 +374,15 @@ video {
   height: 42em;
 }
 
-/* .projectcontainer:hover {
-  background-image: url("https://media.giphy.com/media/3o7btWtWIcrnr6Nvwc/giphy.gif");
-  background-size: 6em;
-} */
-
 .projectbutton {
   border-radius: 100%;
-  width: 6em;
-  height: 6em;
-  margin: 1em 1em 0em 1em;
-  font-size: 0.75em;
+  width: 9em;
+  height: 9em;
+  margin: 1em;
+  font-size: 0.7em;
   text-align: center;
+  word-wrap: break-word;
+  padding: 1.5em;
 }
 
 .projectbutton:hover {
@@ -353,7 +422,7 @@ video {
 
   .projectbutton:hover {
     font-weight: bold;
-    font-size: xx-small;
+    /* font-size: xx-small; */
     border: 0.25em solid white;
   }
 }
@@ -425,26 +494,38 @@ video {
     width: 28em;
     padding: 1em;
   }
-
-
 }
 
 /*----------------RESUME PAGE -------------------*/
 
+hr {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: white;
+  height: .25em;
+}
 .resumeimage {
-  margin: 20em auto 0em auto;
+  margin: 1em auto 0em auto;
 }
 
-iframe {
+
+.resumebutton {
+  margin: 1em auto 0em;
+ padding: .5em;
+ height: 7em;
+ width: 7em;
+}
+
+/* iframe {
   width: 80%;
   height: 75em;
   border: 1.5em solid white;
   padding: 1.5em;
-}
+} */
 
 @media (max-width: 550px) {
   .resumeimage {
-    margin: 14em 1em 0em 1em;
+    margin: 1em 1em 0em 1em;
   }
 
   .resumebutton {

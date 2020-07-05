@@ -11,8 +11,76 @@ function Header() {
       <h1 className="headerbackhome" onClick={gohome}>
         Regina Clarke
       </h1>
-      <h4>Software Engineer & Product Manager</h4>
-      <nav>
+      <h4>Creative Problem Solver</h4>
+
+      <nav className="navbar navbar-expand-sm bg-light navbar-light">
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <div className="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <NavLink
+                exact
+                to={"/"}
+                className="nav-link navLinks"
+                activeClassName={"active"}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to={"/about"}
+                className="nav-link navLinks"
+                activeClassName={"active"}
+              >
+                About
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to={"/projects"}
+                className="nav-link navLinks"
+                activeClassName={"active"}
+              >
+                Projects
+              </NavLink>
+            </li>
+            {/* <li className="nav-item">
+              <NavLink
+                to={"/resume"}
+                className="nav-link navLinks"
+                activeClassName={"active"}
+              >
+                Resume
+              </NavLink>
+            </li> */}
+            <li className="nav-item">
+              <NavLink
+                to={"/discovery"}
+                className="nav-link navLinks"
+                activeClassName={"active"}
+              >
+                Discovery
+              </NavLink>
+            </li>
+            {/* <li className="nav-item">
+              <NavLink to={"/contact"} className="nav-link navLinks" href="#" activeClassName={"active"}>
+                Contact Me
+              </NavLink>
+            </li> */}
+          </ul>
+        </div>
+      </nav>
+
+      {/* <nav>
         <NavLink exact to={"/"} className="navLinks" activeClassName={"active"}>
           Home
         </NavLink>
@@ -21,7 +89,11 @@ function Header() {
           About
         </NavLink>
 
-        <NavLink to={"/projects"} className="navLinks" activeClassName={"active"}>
+        <NavLink
+          to={"/projects"}
+          className="navLinks"
+          activeClassName={"active"}
+        >
           Projects
         </NavLink>
 
@@ -29,14 +101,18 @@ function Header() {
           Resume
         </NavLink>
 
-        <NavLink to={"/discovery"} className="navLinks" activeClassName={"active"}>
+        <NavLink
+          to={"/discovery"}
+          className="navLinks"
+          activeClassName={"active"}
+        >
           Discovery
         </NavLink>
 
-        {/* <NavLink to={"/contact"} activeClassName={"active"}>
+        <NavLink to={"/contact"} activeClassName={"active"}>
           Contact Me
-        </NavLink> */}
-      </nav>
+          </NavLink> 
+      </nav> */}
     </header>
   );
 }

@@ -108,13 +108,11 @@ function Projects() {
             allowfullscreen
           ></iframe>
           {/* </video> */}
-          <h3>Work in Progress: Product Management</h3>
+          <h3>Product Management + Execution</h3>
           <p>Zenfolio Platform (No Coding)</p>
           <p>
-            Work in progress: A client who is a real estate photographer
-            required a website revision. I created a roadmap of features to help
-            him improve conversion, improve client satisfaction, and increase
-            revenue streams.
+            A client who is a real estate photographer required a website revision. I created a roadmap of features to help
+            him improve conversion, improve client satisfaction, and increase revenue streams. Actions taken were based on research on users and competitive analysis.
           </p>
           <button className="projectbutton" onClick={realSnapsSite}>
             Live Site
@@ -123,7 +121,7 @@ function Projects() {
             Roadmap
           </button>
           <button className="projectbutton" onClick={realSnapLiveReview}>
-            LiveReview
+            Before
           </button>
         </div>
 
