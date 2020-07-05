@@ -14,11 +14,11 @@ This is a compilation of my work in tech with a bit about my past career and som
 5. Testing (Testing the solution) - Client will execute
 6. Launch (Ship solution and measure success)  - Client will execute, but I will setup and train him on using the tools.
 
-#### Personal work for my blog Transition to Tech Life
-1. Researching (Defining the Problems) ---- I am here spending one hour a day studying competition and value I can add.
-2. Planning (Prioritizing the problems via Product Roadmap)
-3. Design (Designing the solution)
-4. Implementing (Building the solution)
+#### Personal work for Vision Board App
+1. Researching (Defining the Problems) ---- This is complete.
+2. Planning (Prioritizing the problems via Product Roadmap) This has been ironed out with UX team.
+3. Design (Designing the solution) - The UX team is finalizing designs.
+4. Implementing (Building the solution). Currently building (see visionTalks)
 5. Testing (Testing the solution)
 6. Launch (Ship solution and measure success)
 
