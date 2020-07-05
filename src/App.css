@@ -422,7 +422,7 @@ video {
   .projectcontainer {
     border: 0.25em solid white;
     width: 33em;
-    min-height: 40em;
+    min-height: 45em;
   }
 
   .projectbutton:hover {
@@ -462,6 +462,7 @@ video {
     width: 32em;
     padding: 2em;
     font-size: 70%;
+    min-height: 47em;
   }
 }
 
@@ -484,11 +485,10 @@ video {
 
 @media (max-width: 550px) {
   .projectview {
-    margin: 14em 1em 0em 1em;
+    margin: 16em 1em 0em 1em;
   }
 
   .projectcontainer {
-    height: fit-content;
     padding: 1em;
     min-height: 30em;
   }
