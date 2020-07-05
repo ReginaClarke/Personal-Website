@@ -114,6 +114,7 @@ function Projects() {
             A client who is a real estate photographer required a website revision. I created a roadmap of features to help
             him improve conversion, improve client satisfaction, and increase revenue streams. Actions taken were based on research on users and competitive analysis.
           </p>
+          <div className="buttondiv">
           <button className="projectbutton" onClick={realSnapsSite}>
             Live Site
           </button>
@@ -121,8 +122,9 @@ function Projects() {
             Roadmap
           </button>
           <button className="projectbutton" onClick={realSnapLiveReview}>
-            Before
+              Before
           </button>
+          </div>
         </div>
 
         <div className="projectcontainer">
@@ -136,6 +138,7 @@ function Projects() {
             instantly buy anything seen in the photos. After all, digital
             shopping continues to rise as well as social media.
           </p>
+          <div className="buttondiv">
           <button className="projectbutton" onClick={instashopSite}>
             Live Site
           </button>
@@ -143,8 +146,9 @@ function Projects() {
             Code
           </button>
           <button className="projectbutton" onClick={instashopWireframe}>
-            Wireframe
+              Wireframe
           </button>
+          </div>
         </div>
 
         <div className="projectcontainer">
