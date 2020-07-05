@@ -68,7 +68,6 @@ class Discovery extends Component {
           <form onSubmit={this.handleSubmit}>
             <select onChange={this.handleSelectChange}>
               <option value="">Discover Here</option>
-              <option value="hire me">Hire Me</option>
               <option value="typing fast">Hard Worker</option>
               <option value="teamwork makes the dream work">Team Player</option>
               <option value="computer science">Tech Life</option>
