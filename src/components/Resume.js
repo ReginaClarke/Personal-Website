@@ -2,7 +2,7 @@ import React from "react";
 
 const resume = function () {
   window.open(
-    "https://res.cloudinary.com/dolrvzlkq/image/upload/v1588088955/Portfolio/Resume-Regina_Clarke-Product_Manager_Software_Engineer_ky50ad.pdf",
+    "https://res.cloudinary.com/dolrvzlkq/image/upload/v1594044119/Portfolio/Resume-Regina_Clarke_-_7.2020_y71ura.pdf",
     "_blank"
   );
 };
