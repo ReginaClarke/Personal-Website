@@ -4,15 +4,15 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: auto 1em;
+  margin: auto;
   width: 100%;
   height: 100%;
-  animation: pulse 15s;
+  animation: pulse 25s;
 }
 
 @keyframes pulse {
   0% {
-    background-color: #4f4f4f;
+    background-color: #0d0941;
   }
   100% {
     background-color: #000000;
@@ -53,6 +53,7 @@ h4 {
   justify-content: center;
   align-items: center;
   margin: 1em;
+  font-size: small;
 }
 
 header {
@@ -176,32 +177,11 @@ button:hover {
   font-size: 1em;
   letter-spacing: 0.17em;
   margin: 2em 1em;
-  overflow: hidden;
+  /* overflow: hidden;
   white-space: nowrap;
   border-right: 0.1em solid pink;
-  /* animation: typing 4s steps(30, end);*/
-  animation: blinking-cursor 0.75s step-end infinite;
+  animation: typing 4s steps(30, end); */
 }
-
-/*
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}*/
-
-@keyframes blinking-cursor {
-  from,
-  to {
-    border-color: transparent;
-  }
-  50% {
-    border-color: pink;
-  }
-} 
 
 /* ----------------------------------- */
 @media (max-width: 1900px) {
@@ -347,8 +327,8 @@ button:hover {
 @media (max-width: 385px) {
   .headshot {
     margin: 9em auto 0em auto;
-    height: 5em;
-    width: 5em;
+    height: 7em;
+    width: 7em;
   }
 }
 
@@ -502,7 +482,7 @@ video {
 /*----------------RESUME PAGE -------------------*/
 
 hr {
-  margin-top: 2em;
+  margin-top: 3em;
   margin-bottom: 2em;
   background-color: white;
   height: 0.25em;
@@ -514,8 +494,8 @@ hr {
 .resumebutton {
   margin: 1em auto 0em;
   padding: 0.5em;
-  height: 7em;
-  width: 7em;
+  height: 6em;
+  width: 6em;
 }
 
 /* iframe {
@@ -531,7 +511,7 @@ hr {
   }
 
   .resumebutton {
-    margin: 8em auto 0em;
+    margin: 5em auto 0em;
   }
 
   iframe {

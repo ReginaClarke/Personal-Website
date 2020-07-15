@@ -11,7 +11,7 @@ function Header() {
       <h1 className="headerbackhome" onClick={gohome}>
         Regina Clarke
       </h1>
-      <h4>Creative Problem Solver</h4>
+      <h4>The Creative Problem Solver</h4>
 
       <nav className="navbar navbar-expand-sm bg-light navbar-light">
         <button
@@ -53,15 +53,6 @@ function Header() {
                 Projects
               </NavLink>
             </li>
-            {/* <li className="nav-item">
-              <NavLink
-                to={"/resume"}
-                className="nav-link navLinks"
-                activeClassName={"active"}
-              >
-                Resume
-              </NavLink>
-            </li> */}
             <li className="nav-item">
               <NavLink
                 to={"/discovery"}
@@ -71,48 +62,11 @@ function Header() {
                 Discovery
               </NavLink>
             </li>
-            {/* <li className="nav-item">
-              <NavLink to={"/contact"} className="nav-link navLinks" href="#" activeClassName={"active"}>
-                Contact Me
-              </NavLink>
-            </li> */}
           </ul>
         </div>
       </nav>
 
-      {/* <nav>
-        <NavLink exact to={"/"} className="navLinks" activeClassName={"active"}>
-          Home
-        </NavLink>
 
-        <NavLink to={"/about"} className="navLinks" activeClassName={"active"}>
-          About
-        </NavLink>
-
-        <NavLink
-          to={"/projects"}
-          className="navLinks"
-          activeClassName={"active"}
-        >
-          Projects
-        </NavLink>
-
-        <NavLink to={"/resume"} className="navLinks" activeClassName={"active"}>
-          Resume
-        </NavLink>
-
-        <NavLink
-          to={"/discovery"}
-          className="navLinks"
-          activeClassName={"active"}
-        >
-          Discovery
-        </NavLink>
-
-        <NavLink to={"/contact"} activeClassName={"active"}>
-          Contact Me
-          </NavLink> 
-      </nav> */}
     </header>
   );
 }

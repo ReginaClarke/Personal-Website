@@ -136,13 +136,6 @@ function About() {
           alt="US Army logo"
         />
       </div>
-
-      {/* <hr />
-      <h3>Code</h3>
-      <div className="logogrid"></div>
-
-      <hr />
-      <h3>Tools</h3> */}
     </div>
   );
 }
