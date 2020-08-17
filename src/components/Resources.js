@@ -1,45 +1,43 @@
 import React from "react";
 import Headshot from "../assets/images/Headshot.png";
-import Resume from "./Resume"
+import Resume from "./Resume";
 
 function Resources() {
   return (
     <div className="homepage">
       <img className="headshot" src={Headshot} alt="headshot" />
 
+      <h3>Amazon</h3>
       <p className="aboutMe">
-        I'm a problem solver who brings value to both customers and
-        businesses. My passion is strategy and problem solving by fully
-        leveraging good communication skills and understanding the business wholistically. I dig into the details when needed
-        and create strategies to maintain and grow businesses based on my
-        insight.
+        Some have issue with Amazon, but there is quite a bit to learn from this
+        company. First being that they are customer obsessed. This means
+        ensuring the company is happy with the service is their number one
+        focus. This builds both loyalty and trust. An additional thing to take
+        note of in regards to Amazon is most products come from third party
+        vendors. Amazon leverages their warehouse services to assist businesses
+        with achieving fast shipping as well as not get to caught up in the work
+        of logistics.
         <br />
         <br />
-        My domain expertise is in retail. If you have a retail challenge
-        especially in regards to tech, I can help!
+        <h3>Shopify</h3>
+        Shopify is one of my favorite companies in existance. This company
+        breaks down the barriers of entry to creators of all sorts. Previously,
+        one would need to either go to a developer to get a custom website or
+        use prebuilt websites from companies such as GoDaddy. Previous template
+        sites gave little flexibility to users and also weren't as fast for the
+        end users. Shopify offers ease of customization via using GUI or
+        graphical user interface, several templates to choose from ranging from
+        free to paid, a marketplace for easily gaining developer help and
+        provide limited access, thousands of plugins to quickly get your store
+        to a point of looking legit, analytics, and so much more. Handsdown if
+        you're looking to create an e-commerce website, start here first. You
+        may want to build a website from scratch later, but this will allow you
+        to quickly get started and learn what works before spending heavily on
+        having a custom site built.
         <br />
         <br />
-        My strength in strategy is knowing just enough about many roles for a
-        well rounded perspective, a good understanding of knowing the larger
-        impact, and the insight to ensure the inclusion of key stakeholders.
-        This is a key reason for my need to learn software engineering as I
-        transition to the tech industry.
-        <br />
-        <br />
-        I’ve managed areas of businesses worth over $100 million. I’ve turned
-        would be exit businesses into company initiatives while also training
-        others to do the same based on the application of strategic thinking.
-        <br />
-        <br />I am the type of person who continues learning, who reaches out
-        for collaboration, who is always looking for ways to bring wins to
-        companies, and who loves driving results by being clear with product
-        vision.
+        <h3>More to Come Soon!</h3>
       </p>
-      <Resume/>
-      <hr />
-      <h3>Companies I've worked with or for include:</h3>
-      <div className="logogrid">
-      </div>
     </div>
   );
 }

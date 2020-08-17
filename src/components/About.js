@@ -1,6 +1,6 @@
 import React from "react";
 import Headshot from "../assets/images/Headshot.png";
-import Resume from "../components/Resume"
+import Resume from "../components/Resume";
 
 function About() {
   return (
@@ -8,11 +8,11 @@ function About() {
       <img className="headshot" src={Headshot} alt="headshot" />
 
       <p className="aboutMe">
-        I'm a problem solver brings value to both customers and
-        businesses. My passion is strategy and problem solving by fully
-        leveraging good communication skills. I dig into the details when needed
-        and create strategies to maintain and grow businesses based on my
-        insight.
+        I'm a problem solver who brings value to both customers and businesses.
+        My passion is strategy and problem solving by fully leveraging good
+        communication skills and understanding the business wholistically. I dig
+        into the details when needed and create strategies to maintain and grow
+        businesses based on my insight.
         <br />
         <br />
         My domain expertise is in retail. If you have a retail challenge
@@ -35,7 +35,7 @@ function About() {
         companies, and who loves driving results by being clear with product
         vision.
       </p>
-      <Resume/>
+      <Resume />
       <hr />
       <h3>Companies I've worked with or for include:</h3>
       <div className="logogrid">
