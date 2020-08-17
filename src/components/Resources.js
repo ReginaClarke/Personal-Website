@@ -1,6 +1,5 @@
 import React from "react";
 import Headshot from "../assets/images/Headshot.png";
-import Resume from "./Resume";
 
 function Resources() {
   return (
