@@ -50,16 +50,25 @@ function Header() {
                 className="nav-link navLinks"
                 activeClassName={"active"}
               >
-                Projects
+                Tech Projects
               </NavLink>
             </li>
             <li className="nav-item">
               <NavLink
-                to={"/discovery"}
+                to={"/fun"}
                 className="nav-link navLinks"
                 activeClassName={"active"}
               >
-                Discovery
+                Fun
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                to={"/resources"}
+                className="nav-link navLinks"
+                activeClassName={"active"}
+              >
+                Resources
               </NavLink>
             </li>
           </ul>

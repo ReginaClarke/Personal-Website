@@ -4,11 +4,13 @@ import Home from "./components/Home";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import { Route, Switch } from "react-router-dom";
-import Discovery from "./components/Discovery";
+import Fun from "./components/Fun";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Page404 from "./components/Page404";
 import Resume from "./components/Resume";
+import Resources from "./components/Resources";
+
 // import ContactForm from "./components/Contact";
 
 function App() {
@@ -33,10 +35,13 @@ function App() {
           <Resume />
         </Route>
 
-        <Route exact path={"/discovery"}>
-          <Discovery />
+        <Route exact path={"/fun"}>
+          <Fun />
         </Route>
 
+        <Route exact path={"/resources"}>
+          <Resources />
+        </Route>
         {/* <Route exact path={"/contact"}>
           <ContactForm />
         </Route> */}

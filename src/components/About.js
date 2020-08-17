@@ -8,8 +8,7 @@ function About() {
       <img className="headshot" src={Headshot} alt="headshot" />
 
       <p className="aboutMe">
-        I'm a problem solver focused on roles in product management and
-        technical roles that allow to bring value to both customers and
+        I'm a problem solver brings value to both customers and
         businesses. My passion is strategy and problem solving by fully
         leveraging good communication skills. I dig into the details when needed
         and create strategies to maintain and grow businesses based on my
@@ -126,7 +125,7 @@ function About() {
 
         <img
           className="logoCompanies"
-          src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/32190996_1921919664544796_4394169195017797632_o.jpg?_nc_cat=106&_nc_sid=6e5ad9&_nc_ohc=aoXiOByXD0wAX_skJmD&_nc_ht=scontent-lga3-2.xx&oh=78ad3eeb8b19eb2f1c0f61b4c2e2eb61&oe=5F253CEE"
+          src="https://scontent-lga3-2.xx.fbcdn.net/v/t1.0-9/32190996_1921919664544796_4394169195017797632_o.jpg?_nc_cat=106&_nc_sid=6e5ad9&_nc_ohc=t09Bse9YYvIAX8fT44W&_nc_ht=scontent-lga3-2.xx&oh=75c9690e85d2d200ef0ca43bbae79b24&oe=5F60906E"
           alt="real snaps logo"
         />
 

@@ -5,7 +5,7 @@ const BASE_URL = "https://api.giphy.com/v1/gifs/search?api_key=";
 const GIPHY_KEY = process.env.REACT_APP_GIPHY_KEY;
 
 
-class Discovery extends Component {
+class Fun extends Component {
   constructor() {
     super();
     this.state = {
@@ -218,4 +218,4 @@ class Discovery extends Component {
     );
   }
 }
-export default Discovery;
+export default Fun;
